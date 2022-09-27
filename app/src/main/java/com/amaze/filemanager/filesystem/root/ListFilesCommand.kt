@@ -111,10 +111,7 @@ object ListFilesCommand : IRootCommand() {
              */
             var appendedPath = path
             val sanitizedPath = RootHelper.getCommandLineString(appendedPath)
-            appendedPath = when (path) {
-                "/" -> sanitizedPath.replace("/", "")
-                else -> sanitizedPath.plus("/")
-            }
+            if (sanitizedPath != "/") appendedPath = sanitizedPath.plus("/")
 
             val command = "stat -c '%A %h %G %U %B %Y %N' " +
                 "$appendedPath*" + (if (showHidden) " $appendedPath.* " else "")

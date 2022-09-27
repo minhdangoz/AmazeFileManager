@@ -104,7 +104,7 @@ class ListFilesCommandTest {
             ListFilesCommand.runShellCommandToList("stat -c '%A %h %G %U %B %Y %N' /bin/*")
         } answers { statLines }
         every {
-            ListFilesCommand.runShellCommandToList("stat -c '%A %h %G %U %B %Y %N' *")
+            ListFilesCommand.runShellCommandToList("stat -c '%A %h %G %U %B %Y %N' /*")
         } answers { statRootLines }
     }
 
