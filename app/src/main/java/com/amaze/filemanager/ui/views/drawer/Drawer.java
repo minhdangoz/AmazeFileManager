@@ -136,15 +136,15 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
   private CustomNavigationView navView;
   private RelativeLayout drawerHeaderParent;
   private View drawerHeaderLayout, drawerHeaderView;
-  private AppCompatImageView donateImageView;
-  private AppCompatImageView telegramImageView;
-  private AppCompatImageView instagramImageView;
+//  private AppCompatImageView donateImageView;
+//  private AppCompatImageView telegramImageView;
+//  private AppCompatImageView instagramImageView;
   private AppCompatTextView appVersion;
 
   /** Tablet is defined as 'width > 720dp' */
   private boolean isOnTablet = false;
 
-  private Billing billing;
+//  private Billing billing;
 
   public Drawer(MainActivity mainActivity) {
     this.mainActivity = mainActivity;
@@ -153,17 +153,17 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
     drawerHeaderLayout = mainActivity.getLayoutInflater().inflate(R.layout.drawerheader, null);
     drawerHeaderParent = drawerHeaderLayout.findViewById(R.id.drawer_header_parent);
     drawerHeaderView = drawerHeaderLayout.findViewById(R.id.drawer_header);
-    donateImageView = drawerHeaderLayout.findViewById(R.id.donate);
-    telegramImageView = drawerHeaderLayout.findViewById(R.id.telegram);
-    instagramImageView = drawerHeaderLayout.findViewById(R.id.instagram);
+//    donateImageView = drawerHeaderLayout.findViewById(R.id.donate);
+//    telegramImageView = drawerHeaderLayout.findViewById(R.id.telegram);
+//    instagramImageView = drawerHeaderLayout.findViewById(R.id.instagram);
     appVersion = drawerHeaderLayout.findViewById(R.id.app_version);
-    if (BuildConfig.DEBUG) {
+//    if (BuildConfig.DEBUG) {
       appVersion.setVisibility(View.VISIBLE);
-    }
-    donateImageView.setOnClickListener(v -> new Billing(mainActivity));
-    telegramImageView.setOnClickListener(v -> Utils.openTelegramURL(mainActivity));
-    instagramImageView.setOnClickListener(v -> Utils.openInstagramURL(mainActivity));
-    initDrawerFocusItems();
+//    }
+//    donateImageView.setOnClickListener(v -> new Billing(mainActivity));
+//    telegramImageView.setOnClickListener(v -> Utils.openTelegramURL(mainActivity));
+//    instagramImageView.setOnClickListener(v -> Utils.openInstagramURL(mainActivity));
+//    initDrawerFocusItems();
     /*drawerHeaderView.setOnLongClickListener(
     v -> {
       Intent intent1;
@@ -223,7 +223,7 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
     mDrawerLayout = mainActivity.findViewById(R.id.drawer_layout);
     // mDrawerLayout.setStatusBarBackgroundColor(Color.parseColor((currentTab==1 ? skinTwo :
     // skin)));
-    drawerHeaderView.setBackgroundResource(R.drawable.amaze_header);
+//    drawerHeaderView.setBackgroundResource(R.drawable.amaze_header);
     // drawerHeaderParent.setBackgroundColor(Color.parseColor((currentTab==1 ? skinTwo : skin)));
     if (mainActivity.findViewById(R.id.tab_frame) != null) {
       isOnTablet = true;
@@ -541,53 +541,53 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
         R.drawable.ic_ftp_white_24dp,
         null);
 
-    addNewItem(
-        menu,
-        LASTGROUP,
-        order++,
-        R.string.wifip2p,
-        new MenuMetadata(
-            () -> {
-              boolean isAUInstalled =
-                  PackageUtils.Companion.appInstalledOrNot(
-                      AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
-              if (isAUInstalled) {
-                try {
-                  Utils.openURL("amaze://teamamaze.xyz/transfer", mainActivity);
-                } catch (ActivityNotFoundException e) {
-                  mainActivity.startActivity(
-                      new Intent(mainActivity, UtilitiesAliasActivity.class));
-                }
-              } else {
-                mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
-              }
-            }),
-        R.drawable.ic_round_connect_without_contact_24,
-        null);
-
-    addNewItem(
-        menu,
-        LASTGROUP,
-        order++,
-        R.string.analyse_storage,
-        new MenuMetadata(
-            () -> {
-              boolean isAUInstalled =
-                  PackageUtils.Companion.appInstalledOrNot(
-                      AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
-              if (isAUInstalled) {
-                try {
-                  Utils.openURL("amaze://teamamaze.xyz/analyse", mainActivity);
-                } catch (ActivityNotFoundException e) {
-                  mainActivity.startActivity(
-                      new Intent(mainActivity, UtilitiesAliasActivity.class));
-                }
-              } else {
-                mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
-              }
-            }),
-        R.drawable.ic_round_analytics_24,
-        null);
+//    addNewItem(
+//        menu,
+//        LASTGROUP,
+//        order++,
+//        R.string.wifip2p,
+//        new MenuMetadata(
+//            () -> {
+//              boolean isAUInstalled =
+//                  PackageUtils.Companion.appInstalledOrNot(
+//                      AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
+//              if (isAUInstalled) {
+//                try {
+//                  Utils.openURL("amaze://teamamaze.xyz/transfer", mainActivity);
+//                } catch (ActivityNotFoundException e) {
+//                  mainActivity.startActivity(
+//                      new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                }
+//              } else {
+//                mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
+//              }
+//            }),
+//        R.drawable.ic_round_connect_without_contact_24,
+//        null);
+//
+//    addNewItem(
+//        menu,
+//        LASTGROUP,
+//        order++,
+//        R.string.analyse_storage,
+//        new MenuMetadata(
+//            () -> {
+//              boolean isAUInstalled =
+//                  PackageUtils.Companion.appInstalledOrNot(
+//                      AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
+//              if (isAUInstalled) {
+//                try {
+//                  Utils.openURL("amaze://teamamaze.xyz/analyse", mainActivity);
+//                } catch (ActivityNotFoundException e) {
+//                  mainActivity.startActivity(
+//                      new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                }
+//              } else {
+//                mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
+//              }
+//            }),
+//        R.drawable.ic_round_analytics_24,
+//        null);
 
     addNewItem(
         menu,
@@ -642,28 +642,28 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
     }
   }
 
-  private void initDrawerFocusItems() {
-    donateImageView.setOnKeyListener(
-        (v, keyCode, event) -> {
-          if (event.getAction() == KeyEvent.ACTION_DOWN) {
-            if (event.getKeyCode() == KeyEvent.KEYCODE_DPAD_RIGHT) {
-              mainActivity.getAppbar().getAppbarLayout().requestFocus();
-              mainActivity.getAppbar().getToolbar().requestFocus();
-            } else if (event.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER) {
-              new Billing(mainActivity);
-            } else if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
-              mainActivity.onBackPressed();
-            } else {
-              return false;
-            }
-          }
-          return true;
-        });
-  }
+//  private void initDrawerFocusItems() {
+//    donateImageView.setOnKeyListener(
+//        (v, keyCode, event) -> {
+//          if (event.getAction() == KeyEvent.ACTION_DOWN) {
+//            if (event.getKeyCode() == KeyEvent.KEYCODE_DPAD_RIGHT) {
+//              mainActivity.getAppbar().getAppbarLayout().requestFocus();
+//              mainActivity.getAppbar().getToolbar().requestFocus();
+//            } else if (event.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER) {
+//              new Billing(mainActivity);
+//            } else if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
+//              mainActivity.onBackPressed();
+//            } else {
+//              return false;
+//            }
+//          }
+//          return true;
+//        });
+//  }
 
-  public AppCompatImageView getDonateImageView() {
-    return this.donateImageView;
-  }
+//  public AppCompatImageView getDonateImageView() {
+//    return this.donateImageView;
+//  }
 
   private void addNewItem(
       Menu menu,
@@ -1024,9 +1024,9 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
     return secondPath;
   }
 
-  public Billing getBilling() {
-    return this.billing;
-  }
+//  public Billing getBilling() {
+//    return this.billing;
+//  }
 
   private SpannableString getSpannableText(String text, String freeSpace, String totalSpace) {
 

@@ -33,5 +33,5 @@ data class HasherOfMenuItem(
 )
 
 fun MenuItem.toNonLeaking(): HasherOfMenuItem {
-    return HasherOfMenuItem(groupId, itemId, title, order)
+    return HasherOfMenuItem(groupId, itemId, title!!, order)
 }

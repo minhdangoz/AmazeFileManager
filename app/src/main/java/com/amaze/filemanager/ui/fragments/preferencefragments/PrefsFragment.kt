@@ -65,38 +65,38 @@ class PrefsFragment : BasePrefsFragment() {
                 true
             }
 
-        findPreference<Preference>("about")?.onPreferenceClickListener =
-            Preference.OnPreferenceClickListener {
-                startActivity(Intent(activity, AboutActivity::class.java))
-                false
-            }
+//        findPreference<Preference>("about")?.onPreferenceClickListener =
+//            Preference.OnPreferenceClickListener {
+//                startActivity(Intent(activity, AboutActivity::class.java))
+//                false
+//            }
 
-        findPreference<Preference>("feedback")
-            ?.onPreferenceClickListener = Preference.OnPreferenceClickListener {
-            val emailIntent = Utils.buildEmailIntent(requireContext(), null, Utils.EMAIL_SUPPORT)
-
-            val activities = activity.packageManager.queryIntentActivities(
-                emailIntent,
-                PackageManager.MATCH_DEFAULT_ONLY
-            )
-
-            if (activities.isNotEmpty()) {
-                startActivity(
-                    Intent.createChooser(
-                        emailIntent,
-                        resources.getString(R.string.feedback)
-                    )
-                )
-            } else {
-                Toast.makeText(
-                    getActivity(),
-                    resources.getString(R.string.send_email_to) + " " + Utils.EMAIL_SUPPORT,
-                    Toast.LENGTH_LONG
-                )
-                    .show()
-            }
-
-            false
-        }
+//        findPreference<Preference>("feedback")
+//            ?.onPreferenceClickListener = Preference.OnPreferenceClickListener {
+//            val emailIntent = Utils.buildEmailIntent(requireContext(), null, Utils.EMAIL_SUPPORT)
+//
+//            val activities = activity.packageManager.queryIntentActivities(
+//                emailIntent,
+//                PackageManager.MATCH_DEFAULT_ONLY
+//            )
+//
+//            if (activities.isNotEmpty()) {
+//                startActivity(
+//                    Intent.createChooser(
+//                        emailIntent,
+//                        resources.getString(R.string.feedback)
+//                    )
+//                )
+//            } else {
+//                Toast.makeText(
+//                    getActivity(),
+//                    resources.getString(R.string.send_email_to) + " " + Utils.EMAIL_SUPPORT,
+//                    Toast.LENGTH_LONG
+//                )
+//                    .show()
+//            }
+//
+//            false
+//        }
     }
 }

@@ -1433,9 +1433,9 @@ public class MainActivity extends PermissionsActivity
     // TODO: https://developer.android.com/reference/android/app/Activity.html#onDestroy%28%29
     closeInteractiveShell();
     NetCopyClientConnectionPool.INSTANCE.shutdown();
-    if (drawer != null && drawer.getBilling() != null) {
-      drawer.getBilling().destroyBillingInstance();
-    }
+//    if (drawer != null && drawer.getBilling() != null) {
+//      drawer.getBilling().destroyBillingInstance();
+//    }
   }
 
   /** Closes the interactive shell and threads associated */

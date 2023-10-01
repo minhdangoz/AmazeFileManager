@@ -102,8 +102,8 @@ public class ErrorActivity extends ThemedActivity {
   public static final String ERROR_USER_REPORT = "User report";
   public static final String ERROR_UNKNOWN = "Unknown";
 
-  public static final String ERROR_GITHUB_ISSUE_URL =
-      "https://github.com/TeamAmaze/AmazeFileManager/issues";
+//  public static final String ERROR_GITHUB_ISSUE_URL =
+//      "https://github.com/TeamAmaze/AmazeFileManager/issues";
 
   private String[] errorList;
   private ErrorInfo errorInfo;
@@ -197,10 +197,10 @@ public class ErrorActivity extends ThemedActivity {
       actionBar.setDisplayShowTitleEnabled(true);
     }
 
-    final AppCompatButton reportEmailButton = findViewById(R.id.errorReportEmailButton);
-    final AppCompatButton reportTelegramButton = findViewById(R.id.errorReportTelegramButton);
+//    final AppCompatButton reportEmailButton = findViewById(R.id.errorReportEmailButton);
+//    final AppCompatButton reportTelegramButton = findViewById(R.id.errorReportTelegramButton);
     final AppCompatButton copyButton = findViewById(R.id.errorReportCopyButton);
-    final AppCompatButton reportGithubButton = findViewById(R.id.errorReportGitHubButton);
+//    final AppCompatButton reportGithubButton = findViewById(R.id.errorReportGitHubButton);
 
     userCommentBox = findViewById(R.id.errorCommentBox);
     final AppCompatTextView errorView = findViewById(R.id.errorView);
@@ -214,14 +214,14 @@ public class ErrorActivity extends ThemedActivity {
     addGuruMeditation();
     currentTimeStamp = getCurrentTimeStamp();
 
-    reportEmailButton.setOnClickListener((View v) -> sendReportEmail());
-
-    reportTelegramButton.setOnClickListener(
-        (View v) -> {
-          FileUtils.copyToClipboard(this, buildMarkdown());
-          Toast.makeText(this, R.string.crash_report_copied, Toast.LENGTH_SHORT).show();
-          Utils.openTelegramURL(this);
-        });
+//    reportEmailButton.setOnClickListener((View v) -> sendReportEmail());
+//
+//    reportTelegramButton.setOnClickListener(
+//        (View v) -> {
+//          FileUtils.copyToClipboard(this, buildMarkdown());
+//          Toast.makeText(this, R.string.crash_report_copied, Toast.LENGTH_SHORT).show();
+//          Utils.openTelegramURL(this);
+//        });
 
     copyButton.setOnClickListener(
         (View v) -> {
@@ -229,12 +229,12 @@ public class ErrorActivity extends ThemedActivity {
           Toast.makeText(this, R.string.crash_report_copied, Toast.LENGTH_SHORT).show();
         });
 
-    reportGithubButton.setOnClickListener(
-        (View v) -> {
-          FileUtils.copyToClipboard(this, buildMarkdown());
-          Toast.makeText(this, R.string.crash_report_copied, Toast.LENGTH_SHORT).show();
-          Utils.openURL(ERROR_GITHUB_ISSUE_URL, this);
-        });
+//    reportGithubButton.setOnClickListener(
+//        (View v) -> {
+//          FileUtils.copyToClipboard(this, buildMarkdown());
+//          Toast.makeText(this, R.string.crash_report_copied, Toast.LENGTH_SHORT).show();
+//          Utils.openURL(ERROR_GITHUB_ISSUE_URL, this);
+//        });
 
     // normal bugreport
     buildInfo(errorInfo);
@@ -281,12 +281,12 @@ public class ErrorActivity extends ThemedActivity {
     return false;
   }
 
-  private void sendReportEmail() {
-    final Intent i = Utils.buildEmailIntent(this, buildMarkdown(), Utils.EMAIL_NOREPLY_REPORTS);
-    if (i.resolveActivity(getPackageManager()) != null) {
-      startActivity(i);
-    }
-  }
+//  private void sendReportEmail() {
+//    final Intent i = Utils.buildEmailIntent(this, buildMarkdown(), Utils.EMAIL_NOREPLY_REPORTS);
+//    if (i.resolveActivity(getPackageManager()) != null) {
+//      startActivity(i);
+//    }
+//  }
 
   private String formErrorText(final String[] el) {
     final StringBuilder text = new StringBuilder();

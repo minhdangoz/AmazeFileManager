@@ -6,7 +6,7 @@ apply plugin: 'com.hiya.jacoco-android'
 apply plugin: "com.starter.easylauncher"
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
     packagingOptions {
         resources {
             excludes += ['proguard-project.txt', 'project.properties', 'META-INF/LICENSE.txt', 'META-INF/LICENSE', 'META-INF/NOTICE.txt', 'META-INF/NOTICE', 'META-INF/DEPENDENCIES.txt', 'META-INF/DEPENDENCIES']
@@ -15,9 +15,9 @@ android {
 
 
     defaultConfig {
-        applicationId "com.amaze.filemanager"
+        applicationId "com.mobilestartools.filemanager"
         minSdkVersion 19
-        targetSdkVersion 31
+        targetSdkVersion 34
         versionCode 118
         versionName "3.8.5"
         multiDexEnabled true

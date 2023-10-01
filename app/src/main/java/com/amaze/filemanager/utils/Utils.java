@@ -80,14 +80,14 @@ public class Utils {
   private static final String INPUT_INTENT_BLACKLIST_AMP = "&&";
   private static final String INPUT_INTENT_BLACKLIST_DOTS = "\\.\\.\\.";
   private static final String DATE_TIME_FORMAT = "%s | %s";
-  private static final String EMAIL_EMMANUEL = "emmanuelbendavid@gmail.com";
-  private static final String EMAIL_RAYMOND = "airwave209gt@gmail.com";
-  private static final String EMAIL_VISHAL = "vishalmeham2@gmail.com";
-  private static final String URL_TELEGRAM = "https://t.me/AmazeFileManager";
-  private static final String URL_INSTGRAM = "https://www.instagram.com/teamamaze.xyz/";
+//  private static final String EMAIL_EMMANUEL = "emmanuelbendavid@gmail.com";
+//  private static final String EMAIL_RAYMOND = "airwave209gt@gmail.com";
+//  private static final String EMAIL_VISHAL = "vishalmeham2@gmail.com";
+//  private static final String URL_TELEGRAM = "https://t.me/AmazeFileManager";
+//  private static final String URL_INSTGRAM = "https://www.instagram.com/teamamaze.xyz/";
 
-  public static final String EMAIL_NOREPLY_REPORTS = "no-reply@teamamaze.xyz";
-  public static final String EMAIL_SUPPORT = "support@teamamaze.xyz";
+//  public static final String EMAIL_NOREPLY_REPORTS = "no-reply@teamamaze.xyz";
+//  public static final String EMAIL_SUPPORT = "support@teamamaze.xyz";
 
   // methods for fastscroller
   public static float clamp(float min, float max, float value) {
@@ -381,43 +381,6 @@ public class Utils {
     context.startActivity(intent);
   }
 
-  /** Open telegram in browser */
-  public static void openTelegramURL(Context context) {
-    openURL(URL_TELEGRAM, context);
-  }
-
-  /** Open instagram in browser */
-  public static void openInstagramURL(Context context) {
-    openURL(URL_INSTGRAM, context);
-  }
-
-  /**
-   * Builds a email intent for amaze feedback
-   *
-   * @param text email content
-   * @param supportMail support mail for given intent
-   * @return intent
-   */
-  public static Intent buildEmailIntent(Context context, String text, String supportMail) {
-    Intent emailIntent = new Intent(Intent.ACTION_SEND);
-    String[] aEmailList = {supportMail};
-    String[] aEmailCCList = {EMAIL_VISHAL, EMAIL_EMMANUEL, EMAIL_RAYMOND};
-    emailIntent.putExtra(Intent.EXTRA_EMAIL, aEmailList);
-    emailIntent.putExtra(Intent.EXTRA_CC, aEmailCCList);
-    emailIntent.putExtra(
-        Intent.EXTRA_SUBJECT, "Feedback : Amaze File Manager for " + BuildConfig.VERSION_NAME);
-    Uri logUri =
-        FileProvider.getUriForFile(
-            context,
-            context.getPackageName(),
-            new File(String.format("/data/data/%s/cache/logs.txt", context.getPackageName())));
-    emailIntent.putExtra(Intent.EXTRA_STREAM, logUri);
-    if (!Utils.isNullOrEmpty(text)) {
-      emailIntent.putExtra(Intent.EXTRA_TEXT, text);
-    }
-    emailIntent.setType("message/rfc822");
-    return emailIntent;
-  }
 
   public static void zoom(Float scaleX, Float scaleY, PointF pivot, View view) {
     view.setPivotX(pivot.x);
