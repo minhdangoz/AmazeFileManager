@@ -5,6 +5,7 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'com.hiya.jacoco-android'
 apply plugin: "com.starter.easylauncher"
 
+
 android {
     compileSdkVersion 34
     packagingOptions {
@@ -103,6 +104,7 @@ android {
     lint {
         abortOnError false
     }
+    namespace 'com.amaze.filemanager'
 }
 
 dependencies {

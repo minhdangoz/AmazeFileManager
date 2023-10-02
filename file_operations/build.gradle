@@ -53,6 +53,7 @@ android {
     kotlinOptions {
         useIR = true
     }
+    namespace 'com.amaze.filemanager.fileoperations'
 }
 
 dependencies {

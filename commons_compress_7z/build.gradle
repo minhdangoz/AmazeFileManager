@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard.cfg'
         }
     }
+    namespace 'com.amaze.filemanager.filesystem.compressed.sevenz'
 
 }
 
