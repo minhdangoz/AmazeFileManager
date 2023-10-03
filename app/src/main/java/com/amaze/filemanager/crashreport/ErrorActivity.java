@@ -371,7 +371,7 @@ public class ErrorActivity extends ThemedActivity {
               String.format("## Issue explanation (write below this line)\n\n%s\n\n", userComment))
           .append("## Exception")
           .append("\n* __App Name:__ ")
-          .append(getString(R.string.app_name))
+          .append(getString(R.string.appbar_name))
           .append("\n* __Package:__ ")
           .append(BuildConfig.APPLICATION_ID)
           .append("\n* __Version:__ ")
