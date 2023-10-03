@@ -3,9 +3,9 @@
 <!--
     Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
 
-    This file is part of Amaze File Manager.
+    This file is part of File Manager.
 
-    Amaze File Manager is free software: you can redistribute it and/or modify
+    File Manager is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string name="about_amaze_file_manager_label">Om Amaze File Manager</string>
+  <string name="about_amaze_file_manager_label">Om File Manager</string>
   <string name="add_to_bookmarks">Legg til i bokmerkene</string>
   <string name="apks">APK-er</string>
   <string name="apps">App-behandler</string>

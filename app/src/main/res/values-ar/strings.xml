@@ -3,9 +3,9 @@
 <!--
     Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
 
-    This file is part of Amaze File Manager.
+    This file is part of File Manager.
 
-    Amaze File Manager is free software: you can redistribute it and/or modify
+    File Manager is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -697,7 +697,7 @@
     <string name="compressed_explorer_fragment_error_open_uri">خطأ في فتح URI \"%s\" للقراءة.</string>
     <string name="error_empty_archive">\"%s\" هو أرشيف فارغ.</string>
     <string name="security_error">تعذر فتح الملف باستخدام هذا التطبيق</string>
-    <string name="cloud_drive_tooltip">قم بإنشاء اتصال Google Drive ™ لإدارة الملفات من داخل Amaze File Manager.</string>
+    <string name="cloud_drive_tooltip">قم بإنشاء اتصال Google Drive ™ لإدارة الملفات من داخل  File Manager.</string>
     <string name="signin_with_google_title">المصادقة لاستخدام Google Drive™</string>
     <string name="show_system_apps">عرض تطبيقات النظام</string>
     <string name="system_apps">System apps</string>

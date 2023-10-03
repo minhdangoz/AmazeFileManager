@@ -3,9 +3,9 @@
 <!--
     Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
 
-    This file is part of Amaze File Manager.
+    This file is part of File Manager.
 
-    Amaze File Manager is free software: you can redistribute it and/or modify
+    File Manager is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -135,7 +135,7 @@
   <string name="miscellaneous">Diverse</string>
   <string name="root_pref_summary">Se afişează permisiunile fișierelor și dosarelor</string>
   <string name="root_pref">Afişare permisiuni</string>
-  <string name="about_amaze_file_manager_label">Despre Amaze File Manager</string>
+  <string name="about_amaze_file_manager_label">Despre File Manager</string>
   <string name="version">Versiune</string>
   <string name="rate">Evaluaţi aplicaţia</string>
   <string name="feedback">Trimiteţi Feedback</string>
