@@ -296,7 +296,7 @@ kommer annars att söka efter förekomster.</string>
     <string name="invalid">Ogiltig %s</string>
     <string name="ftp_notif_starting">FTP-server startar</string>
     <string name="ftp_notif_starting_title">FTP-server</string>
-    <string name="ftp_notif_title">Amaze FTP-server körs</string>
+    <string name="ftp_notif_title">File Manager FTP-server körs</string>
     <string name="ftp_notif_text">vid %s</string>
     <string name="ftp_notif_stop_server">STOPP</string>
     <string name="ftp_port_edit_menu_title">Välj FTP-port</string>
@@ -308,7 +308,7 @@ kommer annars att söka efter förekomster.</string>
     <string name="report_bugs_title">Rapportera buggar</string>
     <string name="report_bugs_summary">Rapportera buggar eller begär ny funktion</string>
     <string name="translate_title">Översätt</string>
-    <string name="translate_summary">Översätt Amaze till ditt språk</string>
+    <string name="translate_summary">Översätt File Manager till ditt språk</string>
     <string name="paypal_copy_message">PayPal-UD kopierat till urklipp</string>
     <string name="searching_devices">Söker efter enheter</string>
     <string name="use_custom_ip">Använd egen IP</string>
@@ -515,9 +515,9 @@ Systeminställning, då kommer du inte längre kunna dekryptera det här innehå
     <string name="directory">Katalog</string>
 
     <string name="show_bookmarks_pref">Bokmärken</string>
-    <string name="cloud_error_plugin">Amaze Moln-plug-in kunde inte hittas. Var god ladda ner en från Play Store.</string>
+    <string name="cloud_error_plugin">File Manager Moln-plug-in kunde inte hittas. Var god ladda ner en från Play Store.</string>
     <string name="cloud_error_failed_restart">Misslyckades med att ladda anslutningen.
-Var god öppna Amaze Moln en gång.</string>
+Var god öppna File Manager Moln en gång.</string>
     <string name="cloud_remove">Vill du ta bort moln-anslutningen?</string>
     <string name="cloud_fail_authenticate">Autentiseringen misslyckades</string>
     <string name="cloud_share_copied">Kopierade delbar länk till klippbordet</string>
@@ -554,10 +554,10 @@ Var god öppna Amaze Moln en gång.</string>
     <string name="preference_newstack_summary">Ger dig möjlighet att öppna filer i separata processer. Kom åt dem från systemets tidigare-skärm.</string>
     <string name="developers">Utvecklare</string>
     <string name="no_bitcoin_app">Installera en Bitcoin-plånboksapp</string>
-    <string name="channel_name_normal">Amaze Notifieringar</string>
-    <string name="channel_description_normal">Amaze Filhanterares Notifieringar</string>
-    <string name="channel_name_ftp">Amaze FTP-server</string>
-    <string name="channel_description_ftp">Amaze Filhanterares FTP-server Notifieringar</string>
+    <string name="channel_name_normal">File Manager Notifieringar</string>
+    <string name="channel_description_normal">File Manager Filhanterares Notifieringar</string>
+    <string name="channel_name_ftp">File Manager FTP-server</string>
+    <string name="channel_description_ftp">File Manager Filhanterares FTP-server Notifieringar</string>
 
     <string name="processing">Bearbetar&#8230;</string>
     <string name="failed_no_connection">Misslyckades med att ladda filer. Var god kolla anslutningen.</string>
@@ -576,7 +576,7 @@ Var god öppna Amaze Moln en gång.</string>
     <string name="ssh_connect_failed_host_key_changed_title">VARNING: VÄRDENS IDENTIFIERING HAR ÄNDRATS!</string>
     <string name="ssh_connect_failed_host_key_changed_message">
 DET ÄR MÖJLIGT ATT NÅGON GÖR NÅGOT RIKTIGT ELAKT NU!\n\n
-Någon kanske tjuvlyssnar på dig just nu (man-in-the-middle-attack)! Det är också möjligt att värd-nyckeln nyss ändrats. Fingeravtrycket för den publika nyckeln som värden skickat stämmer inte överens med den Amaze har sparad.\n\n
+Någon kanske tjuvlyssnar på dig just nu (man-in-the-middle-attack)! Det är också möjligt att värd-nyckeln nyss ändrats. Fingeravtrycket för den publika nyckeln som värden skickat stämmer inte överens med den File Manager har sparad.\n\n
 Var god kontakta din systemadministratör eller skapa upp en ny anslutning för att fortsätta ansluta till servern.</string>
     <string name="ssh_key_prompt_passphrase">Ange lösenord</string>
     <string name="add_shortcut_not_supported_by_launcher">Din launcher har inte stöd för att skapa genvägar.</string>

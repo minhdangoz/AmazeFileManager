@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">מנהל הקבצים Amaze</string>
+    <string name="app_name">מנהל הקבצים File Manager</string>
     <string name="drawer_open">פתיחת תפריט הניווט</string>
     <string name="drawer_close">סגירת תפריט הניווט</string>
     <string name="icon">סמל</string>
@@ -160,7 +160,7 @@
     <string name="miscellaneous">שונות</string>
     <string name="root_pref_summary">הצגת הרשאות של קבצים ותיקיות</string>
     <string name="root_pref">הצג הרשאות</string>
-    <string name="about_amaze_file_manager_label">על מנהל הקבצים Amaze</string>
+    <string name="about_amaze_file_manager_label">על מנהל הקבצים File Manager</string>
     <string name="version">גרסה</string>
     <string name="rate">דירוג היישומון</string>
     <string name="feedback">שליחת משוב</string>
@@ -302,7 +302,7 @@
     <string name="invalid">%s שגוי</string>
     <string name="ftp_notif_starting">שרת ה־FTP מופעל</string>
     <string name="ftp_notif_starting_title">שרת FTP</string>
-    <string name="ftp_notif_title">שרת FTP של Amaze פועל</string>
+    <string name="ftp_notif_title">שרת FTP של File Manager פועל</string>
     <string name="ftp_notif_text">ב־%s</string>
     <string name="ftp_notif_stop_server">עצירה</string>
     <string name="ftp_port_edit_menu_title">פתחת FTP</string>
@@ -316,7 +316,7 @@
     <string name="source_summary">ניתן לצפות בקוד המקור שלנו ב־GitHub</string>
     <string name="report_bugs_summary">דיווח על תקלות או בקשת יכולות חדשות</string>
     <string name="translate_title">תרגום</string>
-    <string name="translate_summary">תרגום Amaze לשפה שלך</string>
+    <string name="translate_summary">תרגום File Manager לשפה שלך</string>
     <string name="paypal_copy_message">מזהה ה־PayPal הועתק ללוח הגזירים</string>
     <string name="searching_devices">חיפוש התקנים</string>
     <string name="use_custom_ip">להשתמש בכתובת IP מותאמת אישית</string>
@@ -532,9 +532,9 @@
     <string name="edit_bookmark">עריכת סימניה</string>
     <string name="question_delete_bookmark">למחוק סימניה?</string>
 
-    <string name="cloud_error_plugin">תוסף הענן של Amaze לא נמצא. נא להוריד מהחנות Play.</string>
+    <string name="cloud_error_plugin">תוסף הענן של File Manager לא נמצא. נא להוריד מהחנות Play.</string>
     <string name="cloud_error_failed_restart">טעינת החיבור נכשלה.
-        נא לפתוח את Amaze Cloud לפחות פעם אחת.</string>
+        נא לפתוח את File Manager Cloud לפחות פעם אחת.</string>
     <string name="cloud_remove">להסיר את החיבור לענן?</string>
     <string name="cloud_fail_authenticate">האימות נכשל</string>
     <string name="cloud_share_copied">קישור לצורכי שיתוף הועתק ללוח הגזירים</string>
@@ -571,10 +571,10 @@
     <string name="preference_newstack_summary">מאפשר לך לפתוח קבצים במשימות נפרדות. גם לגשת אליהם ממסך האחרונים של המערכת.</string>
     <string name="developers">מפתחים</string>
     <string name="no_bitcoin_app">נא להתקין יישומון ארנק ביטקוין</string>
-    <string name="channel_name_normal">התראות Amaze</string>
-    <string name="channel_description_normal">ההתראות של מנהל הקבצים Amaze</string>
-    <string name="channel_name_ftp">שרת FTP של Amaze</string>
-    <string name="channel_description_ftp">התראות שרת ה־FTP של מנהל הקבצים Amaze</string>
+    <string name="channel_name_normal">התראות File Manager</string>
+    <string name="channel_description_normal">ההתראות של מנהל הקבצים File Manager</string>
+    <string name="channel_name_ftp">שרת FTP של File Manager</string>
+    <string name="channel_description_ftp">התראות שרת ה־FTP של מנהל הקבצים File Manager</string>
 
     <string name="processing">בהליכי עיבוד&#8230;</string>
     <string name="failed_no_connection">טעינת הקבצים נכשלה. נא לבדוק את החיבור שלך</string>
@@ -593,7 +593,7 @@
     <string name="ssh_authentication_failure_key">הכניסה נכשלה: לא ניתן לבצע אימות עם שם המשתמש והמפתח הפרטי שסופקו.</string>
     <string name="ssh_connect_failed">לא ניתן להתחבר אל %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">אזהרה: מזהה המארח המרוחק השתנה!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">יכול להיות שמשהו פסול מתנהל מאחורי הקלעים!\n\nיכול להיות שמדובר בהאזנה שמתרחשת כרגע (סוכן אמצע)! יכול גם להיות שמפתח המארח השתנה ממש כרגע. טביעת האצבע של המפתח הציבורי שנשלח מצד המארח המרוחק אינו תואם לזו שמאוחסנת ב־Amaze.\n\nנא ליצור קשר עם הנהלת המערכת או להקים חיבור חדש כדי להמשיך ולהתחבר לשרת.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">יכול להיות שמשהו פסול מתנהל מאחורי הקלעים!\n\nיכול להיות שמדובר בהאזנה שמתרחשת כרגע (סוכן אמצע)! יכול גם להיות שמפתח המארח השתנה ממש כרגע. טביעת האצבע של המפתח הציבורי שנשלח מצד המארח המרוחק אינו תואם לזו שמאוחסנת ב־File Manager.\n\nנא ליצור קשר עם הנהלת המערכת או להקים חיבור חדש כדי להמשיך ולהתחבר לשרת.</string>
     <string name="ssh_key_prompt_passphrase">נא להקליד את מילת הצופן של המפתח.</string>
     <string name="add_shortcut_not_supported_by_launcher">למסך ההפעלה שלך אין תמיכה ביצירת קיצורי דרך.</string>
     
@@ -627,13 +627,13 @@
     <string name="got_it">הבנתי!</string>
     <string name="encrypt_file_save_as">שמירת קובץ מוצפן בשם&#8230;</string>
     <string name="encrypt_folder_save_as">שמירת תיקייה מוצפנת בשם&#8230;</string>
-    <string name="encrypt_option_use_aze">להשתמש בתצורת הדחיסה של Amaze</string>
+    <string name="encrypt_option_use_aze">להשתמש בתצורת הדחיסה של File Manager</string>
     <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
         <p>AESCrypt היא תצורת הצפנת קבצים המבוססת על הצפנת AES. היא גם ניידת ואפשר לפענח אותה עם תוכניות, AESCrypt במערכות אחרות.</p>
         <p><a href=\"https://www.aescrypt.com\" target=\"_blank>האתר של AESCrypt</a></p>]]>
     </string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>תצורת ההצפנה של Amaze מבוססת גם היא על AES אך היא שונה מתצורת AESCrypt, אפשר לפענח אותה רק במכשיר הזה; כמו כן, אסור לך להסיר את מנהל הקבצים Amaze מהמכשיר הזה או לשנות את אופן נעילת המסך, אחרת לא תהיה לך אפשרות לשחזר את הקבצים המוצפנים.</p>
+        <p>תצורת ההצפנה של File Manager מבוססת גם היא על AES אך היא שונה מתצורת AESCrypt, אפשר לפענח אותה רק במכשיר הזה; כמו כן, אסור לך להסיר את מנהל הקבצים File Manager מהמכשיר הזה או לשנות את אופן נעילת המסך, אחרת לא תהיה לך אפשרות לשחזר את הקבצים המוצפנים.</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">מומלץ להשתמש ב־„‎.ace” כסיומת לקובץ.</string>
     <string name="encrypt_file_must_end_with_aes">הקבצים המוצפנים חייבים להשתמש בסיומת „‎.aes”.</string>
@@ -656,7 +656,7 @@
     <string name="close">סגירה</string>
     <string name="bookmark_exists">הסימנייה קיימת</string>
     <string name="hide_media">הסתרה מסיירי מדיה</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">יכול להיות שמשהו פסול מתנהל מאחורי הקלעים!\n\nיכול להיות שמדובר בהאזנה שמתרחשת כרגע (סוכן אמצע)! יכול גם להיות שמפתח המארח השתנה ממש כרגע. טביעת האצבע של המפתח הציבורי שנשלח מצד המארח המרוחק אינו תואם לזו שמאוחסנת ב־Amaze.\n\nניתן להמשיך ולעדכן את טביעת האצבע של השרת או לבטל את עדכון הגדרות חיבור ה־SSH.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">יכול להיות שמשהו פסול מתנהל מאחורי הקלעים!\n\nיכול להיות שמדובר בהאזנה שמתרחשת כרגע (סוכן אמצע)! יכול גם להיות שמפתח המארח השתנה ממש כרגע. טביעת האצבע של המפתח הציבורי שנשלח מצד המארח המרוחק אינו תואם לזו שמאוחסנת ב־File Manager.\n\nניתן להמשיך ולעדכן את טביעת האצבע של השרת או לבטל את עדכון הגדרות חיבור ה־SSH.</string>
     <string name="update_host_key">עדכון מפתח מארח</string>
     <string name="cancel_recommended">ביטול (עדיף)</string>
     <string name="failed_install_apk">ההתקנה נכשלה</string>
@@ -716,10 +716,10 @@
     <string name="choose_operation">נא לבחור פעולה לביצוע</string>
     <string name="remember">לזכור לפעם הבאה</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">הענקת גישת SAF לשרת FTP</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">מאחר שזו הפעלת שרת ה־FTP הראשונה שלך והאחסון הפנימי של המכשיר שלך משמש כתיקייה משותפת, נא לאפשר ל־Amaze לגשת לאחסון דרך SAF.\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">מאחר שזו הפעלת שרת ה־FTP הראשונה שלך והאחסון הפנימי של המכשיר שלך משמש כתיקייה משותפת, נא לאפשר ל־File Manager לגשת לאחסון דרך SAF.\n\n
 
 עליך לבצע זאת פעם אחת בלבד, עד הפעם הבא בה ייבחר מקום חדש לשיתוף.</string>
-    <string name="android_data_prompt_saf_access">מאז Android 10, מערכת Android כופה הגבלות על תיקיות מסוימות ויש לגשת אליהן עם תשתית הגישה לאחסון.\n\nנא לאפשר ל־Amaze גישה לתיקייה ממנהל הקבצים של המערכת על ידי לחיצה על „לאפשר גישה”.</string>
+    <string name="android_data_prompt_saf_access">מאז Android 10, מערכת Android כופה הגבלות על תיקיות מסוימות ויש לגשת אליהן עם תשתית הגישה לאחסון.\n\nנא לאפשר ל־File Manager גישה לתיקייה ממנהל הקבצים של המערכת על ידי לחיצה על „לאפשר גישה”.</string>
     <string name="android_data_prompt_saf_access_title">הענקת גישת לתשתית גישה לאחסון</string>
     <string name="ftp_preference_saf_filesystem_title">להשתמש במערכת קבצים מיושנת</string>
     <string name="ftp_preference_saf_filesystem">יש להפעיל את זה לקבלת תמיכה בשימוש באחסון החיצוני של המכשיר בגרסאות חדשות של Android</string>
@@ -732,7 +732,7 @@
     <string name="error_bad_archive_without_info">הארכיון „%s” פגום</string>
     <string name="error_bad_archive_with_info">„%s” הוא ארכיון פגום.\nההודעה מהמחלץ היא: „%s”</string>
     <string name="security_error">אי אפשר לפתוח את הקובץ באמצעות היישום הזה</string>
-    <string name="cloud_drive_tooltip">יצירת חיבור ל־Google Drive™‎ לטובת ניהול קבצים מתוך מנהל הקבצים Amaze.</string>
+    <string name="cloud_drive_tooltip">יצירת חיבור ל־Google Drive™‎ לטובת ניהול קבצים מתוך מנהל הקבצים File Manager.</string>
     <string name="signin_with_google_title">יש לעבור אימות כדי להשתמש ב־Google Drive™‎</string>
     <string name="show_system_apps">הצגת יישומי המערכת</string>
     <string name="system_apps">יישומוני מערכת</string>
@@ -752,24 +752,24 @@
     <string name="behavior_summary">שינוי התנהגויות כגון חיפוש מתקדם והאם לפתוח קבצים כמשימה חדשה</string>
     <string name="security_summary">הגדרת סיסמה והצפנה</string>
 
-    <string name="quick_desc">קבצים אליהם ניגשת לאחרונה דרך Amaze</string>
+    <string name="quick_desc">קבצים אליהם ניגשת לאחרונה דרך File Manager</string>
     <string name="recent_desc">קבצים שנוצרו או נערכו לאחרונה</string>
     <string name="error_cannot_find_way_open">לא נמצאה דרך לפתוח את הקובץ</string>
     <string name="error_cant_decompress_that_file">לא ניתן לעבד את הארכיון המבוקש</string>
     <string name="analyse_storage">ניתוח האחסון</string>
-    <string name="download_amaze_utils_text">כעת תתבצע הפניה לכלי עזר לקבצים של Amaze. זה פיתוח שלנו עם אפשרות לפתוח שמע/וידאו/תמונות/מסמכים, מאפשר לך לנתח קובצי אחסון לאיתור תמונות מטושטשות/כהות, קבצים כפולים, העברה מהירה עם Wi-Fi נק׳ לנק׳ ועוד.\n אפשר לתמוך בנו על ידי התנסות בהם.</string>
+    <string name="download_amaze_utils_text">כעת תתבצע הפניה לכלי עזר לקבצים של File Manager. זה פיתוח שלנו עם אפשרות לפתוח שמע/וידאו/תמונות/מסמכים, מאפשר לך לנתח קובצי אחסון לאיתור תמונות מטושטשות/כהות, קבצים כפולים, העברה מהירה עם Wi-Fi נק׳ לנק׳ ועוד.\n אפשר לתמוך בנו על ידי התנסות בהם.</string>
     <string name="download">הורדה</string>
     <string name="wifip2p">נקודה לנקודה אלחוטית</string>
-    <string name="amaze_utils_installed_alias">תודה שהתקנת את כלי הקבצים של Amaze. מיד תתבצע העברה ליישומון.</string>
-    <string name="image_viewer">מציג התמונות של Amaze</string>
-    <string name="video_player">נגן הווידאו של Amaze</string>
-    <string name="amaze_audio_player">נגן המוזיקה של Amaze</string>
-    <string name="pdf_viewer">מציג ה־PDF של Amaze</string>
-    <string name="epub_viewer">מציג ה־Epub של Amaze</string>
-    <string name="docx_viewer">מציג ה־Doc של Amaze</string>
+    <string name="amaze_utils_installed_alias">תודה שהתקנת את כלי הקבצים של File Manager. מיד תתבצע העברה ליישומון.</string>
+    <string name="image_viewer">מציג התמונות של File Manager</string>
+    <string name="video_player">נגן הווידאו של File Manager</string>
+    <string name="amaze_audio_player">נגן המוזיקה של File Manager</string>
+    <string name="pdf_viewer">מציג ה־PDF של File Manager</string>
+    <string name="epub_viewer">מציג ה־Epub של File Manager</string>
+    <string name="docx_viewer">מציג ה־Doc של File Manager</string>
     <string name="share_logs">שיתוף יומנים</string>
     <string name="share_logs_summary">שיתוף היומנים שנאספו דרך דוא״ל / טלגרם</string>
-    <string name="open_with_amaze">פתיחה עם Amaze</string>
+    <string name="open_with_amaze">פתיחה עם File Manager</string>
     <string name="confirmation">אישור</string>
     <string name="open_file_confirmation">לפתוח את הקובץ הבא?\n\nשם:\n%s\n\nמיקום:\n%s\n\nגודל:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
     <string name="error_google_play_cannot_update_myself">עקב אילוץ של מדיניות מצד Google Play, ליישומונים אסור לעדכן את עצמם. נא לעדכן את היישומון דרך Google Play.</string>
@@ -779,6 +779,6 @@
     <string name="preference_delete_confirmation_summary">לבקש אישור בטרם מחיקת קבצים. השבתת האפשרות לא מומלצת כלל!</string>
     <string name="protocol_ftps">FTP מאובטח</string>
     <string name="unavailable">לא זמין</string>
-    <string name="cloud_error_fdroid">אין תמיכה בתוסף Amaze Cloud בגרסת ה־F-Droid. נא להשתמש בגרסת חנות ה־Play של Amaze.</string>
+    <string name="cloud_error_fdroid">אין תמיכה בתוסף File Manager Cloud בגרסת ה־F-Droid. נא להשתמש בגרסת חנות ה־Play של File Manager.</string>
 </resources>
 

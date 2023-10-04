@@ -299,7 +299,7 @@
     <string name="invalid">%s érvénytelen</string>
     <string name="ftp_notif_starting">FTP-kiszolgáló indítása</string>
     <string name="ftp_notif_starting_title">FTP-kiszolgáló</string>
-    <string name="ftp_notif_title">Az Amaze FTP-kiszolgáló fut</string>
+    <string name="ftp_notif_title">Az File Manager FTP-kiszolgáló fut</string>
     <string name="ftp_notif_text">%s</string>
     <string name="ftp_notif_stop_server">LEÁLLÍTÁS</string>
     <string name="ftp_port_edit_menu_title">Válasszon FTP portot</string>
@@ -313,7 +313,7 @@
     <string name="source_summary">Forráskód megtekintése a GitHubon</string>
     <string name="report_bugs_summary">Hibák jelentése vagy új funkciók igénylése</string>
     <string name="translate_title">Fordítás</string>
-    <string name="translate_summary">Fordítsa le az Amaze fájlkezelőjét a saját nyelvére</string>
+    <string name="translate_summary">Fordítsa le az File Manager fájlkezelőjét a saját nyelvére</string>
     <string name="paypal_copy_message">A Paypal id a vágólapra lett másolva</string>
     <string name="searching_devices">Eszközök keresése</string>
     <string name="use_custom_ip">Egyéni IP használata</string>
@@ -529,9 +529,9 @@
     <string name="edit_bookmark">Könyvjelző szerkesztése</string>
     <string name="question_delete_bookmark">Törli a könyvjelzőt?</string>
 
-    <string name="cloud_error_plugin">Az Amaze Cloud bővítmény nem található. Kérjük, töltse le a Play Áruházból.</string>
+    <string name="cloud_error_plugin">Az File Manager Cloud bővítmény nem található. Kérjük, töltse le a Play Áruházból.</string>
     <string name="cloud_error_failed_restart">Nem sikerült betölteni a kapcsolatot.
-        Kérjük, először nyissa meg az Amaze Cloud-ot.</string>
+        Kérjük, először nyissa meg az File Manager Cloud-ot.</string>
     <string name="cloud_remove">Megszünteti a felhő kapcsolatot?</string>
     <string name="cloud_fail_authenticate">Nem hitelesíthető</string>
     <string name="cloud_share_copied">A megosztható link a vágólapra lett másolva</string>
@@ -568,9 +568,9 @@
     <string name="preference_newstack_summary">Lehetővé teszi a fájlok megnyitását különálló feladatokban. Ezeket a rendszer legutóbbi képernyőjéről érheti el.</string>
     <string name="developers">Fejlesztők</string>
     <string name="no_bitcoin_app">Kérjük, telepítse a Bitcoin pénztárcát</string>
-    <string name="channel_name_normal">Amaze értesítések</string>
+    <string name="channel_name_normal">File Manager értesítések</string>
     <string name="channel_description_normal">File Manager értesítései</string>
-    <string name="channel_name_ftp">Amaze FTP-kiszolgáló</string>
+    <string name="channel_name_ftp">File Manager FTP-kiszolgáló</string>
     <string name="channel_description_ftp">File Manager FTP-kiszolgáló értesítései</string>
 
     <string name="processing">Feldolgozás&#8230;</string>
@@ -590,7 +590,7 @@
     <string name="ssh_connect_failed_host_key_changed_title">FIGYELEM: A TÁVOLI ÁLLOMÁS AZONOSÍTÓJA MEGVÁLTOZOTT!</string>
     <string name="ssh_connect_failed_host_key_changed_message">
         LEHETSÉGES, HOGY VALAKI CSINÁLT VALAMIT!\n\n
-        Valaki mostantól lehallgathatja Önt (Közbeékelődéses támadás)! Az is lehetséges, hogy a gazda kulcs éppen megváltozott. A távoli állomás által küldött nyilvános kulcs ujjlenyomatja nem egyezik meg az Amaze tárolt információval.\n\n
+        Valaki mostantól lehallgathatja Önt (Közbeékelődéses támadás)! Az is lehetséges, hogy a gazda kulcs éppen megváltozott. A távoli állomás által küldött nyilvános kulcs ujjlenyomatja nem egyezik meg az File Manager tárolt információval.\n\n
         Kérjük, lépjen kapcsolatba a rendszergazdájával, vagy állítson be új kapcsolatot a kiszolgálóhoz való csatlakozás folytatásához.
     </string>
     <string name="ssh_key_prompt_passphrase">Kérjük, adja meg a kulcs-jelszót.</string>
@@ -644,7 +644,7 @@
     <string name="close">Bezárás</string>
     <string name="bookmark_exists">Könyvjelző létezik</string>
     <string name="hide_media">Elrejtés a médiaböngészőkből</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">LEHETSÉGES, HOGY VALAKI VALAMI ALJAS DOLGOT MŰVEL!\n\nMeglehet, hogy valaki éppen most hallgatja le Önt (man-in-the-middle támadás). Az is lehetséges, hogy a gazdakulcsot éppen most változtatták meg. A távoli állomás által küldött nyilvános kulcs ujjlenyomata nem egyezik az Amaze-ben tároltal.\n\n\nFolytathatja a gazdagép ujjlenyomatának frissítésével, vagy megszakíthatja az SSH-kapcsolat beállításainak frissítését.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">LEHETSÉGES, HOGY VALAKI VALAMI ALJAS DOLGOT MŰVEL!\n\nMeglehet, hogy valaki éppen most hallgatja le Önt (man-in-the-middle támadás). Az is lehetséges, hogy a gazdakulcsot éppen most változtatták meg. A távoli állomás által küldött nyilvános kulcs ujjlenyomata nem egyezik az File Manager-ben tároltal.\n\n\nFolytathatja a gazdagép ujjlenyomatának frissítésével, vagy megszakíthatja az SSH-kapcsolat beállításainak frissítését.</string>
     <string name="update_host_key">Gazdagép kulcs frissítése</string>
     <string name="cancel_recommended">Mégse (ajánlott)</string>
     <string name="failed_install_apk">Nem sikerült telepíteni</string>
@@ -704,10 +704,10 @@
     <string name="choose_operation">Válassza ki a végrehajtandó műveletet</string>
     <string name="remember">Jegyezze meg a következő alkalomra</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">SAF-hozzáférés engedélyezése az FTP-kiszolgálóhoz</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Mivel ez az FTP-kiszolgáló első futtatása, és a készülék belső tárhelyét használja megosztott mappaként, kérjük, engedélyezze az Amaze számára, hogy a SAF segítségével hozzáférjen a tárhelyhez..\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Mivel ez az FTP-kiszolgáló első futtatása, és a készülék belső tárhelyét használja megosztott mappaként, kérjük, engedélyezze az File Manager számára, hogy a SAF segítségével hozzáférjen a tárhelyhez..\n\n
 
 Ezt csak egyszer kell megtennie, egészen addig, amíg legközelebb ki nem választ egy új helyet a megosztáshoz.</string>
-    <string name="android_data_prompt_saf_access">Az Android 10 bevezetése óta az Android korlátozásokat vezetett be bizonyos könyvtárakra, és azokat a tárhely hozzáférési keretrendszer segítségével lehet elérni.\n\nKérjük, engedélyezze az Amaze számára a könyvtár elérését a rendszer fájlkezelőjéből a \"Hozzáférés engedélyezése\" gomb megnyomásával.</string>
+    <string name="android_data_prompt_saf_access">Az Android 10 bevezetése óta az Android korlátozásokat vezetett be bizonyos könyvtárakra, és azokat a tárhely hozzáférési keretrendszer segítségével lehet elérni.\n\nKérjük, engedélyezze az File Manager számára a könyvtár elérését a rendszer fájlkezelőjéből a \"Hozzáférés engedélyezése\" gomb megnyomásával.</string>
     <string name="android_data_prompt_saf_access_title">SAF-hozzáférés engedélyezése</string>
     <string name="ftp_preference_saf_filesystem_title">Örökölt fájlrendszer használata</string>
     <string name="ftp_preference_saf_filesystem">Engedélyezze ezt az eszköz külső tárolójának újabb Android-verziókon való használatának támogatásához</string>
@@ -715,7 +715,7 @@ Ezt csak egyszer kell megtennie, egészen addig, amíg legközelebb ki nem vála
     <string name="compressed_explorer_fragment_error_open_uri">Hiba a(z) \"%s\" URI olvasásra történő megnyitásakor.</string>
     <string name="error_empty_archive">A(z) \"%s\" egy üres archívum.</string>
     <string name="security_error">A fájlt nem lehet megnyitni ezzel az alkalmazással</string>
-    <string name="cloud_drive_tooltip">Hozzon létre egy Google Drive™ kapcsolatot a fájlok kezelésére az Amaze fájlkezelőn belül.</string>
+    <string name="cloud_drive_tooltip">Hozzon létre egy Google Drive™ kapcsolatot a fájlok kezelésére az File Manager fájlkezelőn belül.</string>
     <string name="signin_with_google_title">Hitelesítés a Google Drive™ használatához</string>
     <string name="show_system_apps">Rendszeralkalmazások megjelenítése</string>
     <string name="system_apps">Rendszeralkalmazások</string>
@@ -724,8 +724,8 @@ Ezt csak egyszer kell megtennie, egészen addig, amíg legközelebb ki nem vála
     <string name="select_by_date">Kiválasztás dátum szerint</string>
     <string name="select_similar">Hasonló kiválasztása</string>
     <string name="error_fetching_google_play_product_list">Hiba történt a Google Play terméklista lekérésekor.</string>
-    <string name="grant_all_files_permission"><html><body>Az Amaze-nak minden fájlengedélyre szüksége van a folytatáshoz.
-        \nA következő képernyőn válassza az <b>Amaze</b> - <b>Hozzáférés engedélyezése az összes fájl kezeléséhez</b> opciót.
+    <string name="grant_all_files_permission"><html><body>Az File Manager-nak minden fájlengedélyre szüksége van a folytatáshoz.
+        \nA következő képernyőn válassza az <b>File Manager</b> - <b>Hozzáférés engedélyezése az összes fájl kezeléséhez</b> opciót.
             \n\n<font color='#ff6347'><i>A párbeszédpanel megszakításakor az alkalmazás kilép.</i></font></body></html></string>
     <string name="user_apps">Harmadik féltől származó alkalmazások</string>
 </resources>

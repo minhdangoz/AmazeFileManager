@@ -282,7 +282,7 @@
   <string name="domain">Дамен</string>
   <string name="invalid">Несапраўдны %s</string>
   <string name="ftp_notif_starting">FTP сервер запушчаны</string>
-  <string name="ftp_notif_title">Amaze FTP сервер запушчаны</string>
+  <string name="ftp_notif_title">File Manager FTP сервер запушчаны</string>
   <string name="ftp_notif_text">на %s</string>
   <string name="ftp_notif_stop_server">СПЫНІЦЬ</string>
   <string name="ftp_port_edit_menu_title">Выбраць порт FTP</string>
@@ -294,7 +294,7 @@
   <string name="report_bugs_title">Справаздача пра памылку</string>
   <string name="report_bugs_summary">Паведамляць пра памылкі ці спытаць новую функцыю</string>
   <string name="translate_title">Перакласці</string>
-  <string name="translate_summary">Перавесці Amaze вашай мовай</string>
+  <string name="translate_summary">Перавесці File Manager вашай мовай</string>
   <string name="easter_egg_title">Рэжым Студыі</string>
   <string name="paypal_copy_message">PayPal id скапіявана ў буфер абмену</string>
   <string name="searching_devices">Пошук прылад</string>
@@ -490,9 +490,9 @@
   <string name="show_quick_access_pref_title">Паказаць хуткія доступы</string>
   <string name="show_quick_access_pref">Хуткі доступ</string>
   <string name="directory">Каталог</string>
-  <string name="cloud_error_plugin">Плагіна Amaze Воблака не знойдзена. Вы можаце спампаваць яго з Play Store.</string>
+  <string name="cloud_error_plugin">Плагіна File Manager Воблака не знойдзена. Вы можаце спампаваць яго з Play Store.</string>
   <string name="cloud_error_failed_restart">Памылка загрузкі злучэння.
-        Amaze Воблака зноў адкрываецца.</string>
+        File Manager Воблака зноў адкрываецца.</string>
   <string name="cloud_remove">Вы хочаце выдаліць падлучэння да Воблака?</string>
   <string name="cloud_fail_authenticate">Нельга праверыць ідэнтычнасць</string>
   <string name="cloud_share_copied">Гэта спасылкі скапіявана ў буфер абмену</string>

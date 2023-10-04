@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Administrador de Archivos Amaze</string>
+    <string name="app_name">Administrador de Archivos File Manager</string>
     <string name="drawer_open">Abrir panel de navegación</string>
     <string name="drawer_close">Cerrar panel de navegación</string>
     <string name="icon">icono</string>
@@ -158,7 +158,7 @@
     <string name="miscellaneous">Otros</string>
     <string name="root_pref_summary">Mostrar sus permisos sobre archivos y carpetas</string>
     <string name="root_pref">Mostrar permisos</string>
-    <string name="about_amaze_file_manager_label">Acerca de el Administrador de Archivos Amaze</string>
+    <string name="about_amaze_file_manager_label">Acerca de el Administrador de Archivos File Manager</string>
     <string name="version">Versión</string>
     <string name="rate">Calificar la aplicacion</string>
     <string name="feedback">Enviar Comentarios</string>
@@ -298,7 +298,7 @@
     <string name="invalid">Inválido%s</string>
     <string name="ftp_notif_starting">Se está iniciando el servidor FTP</string>
     <string name="ftp_notif_starting_title">Servidor FTP</string>
-    <string name="ftp_notif_title">Servidor FTP de Amaze funcionando</string>
+    <string name="ftp_notif_title">Servidor FTP de File Manager funcionando</string>
     <string name="ftp_notif_text">en %s</string>
     <string name="ftp_notif_stop_server">PARAR</string>
     <string name="ftp_port_edit_menu_title">Elija el puerto FTP</string>
@@ -312,7 +312,7 @@
     <string name="source_summary">Ver código fuente en Github</string>
     <string name="report_bugs_summary">Informar errores o solicitar nuevas características</string>
     <string name="translate_title">Traducir</string>
-    <string name="translate_summary">Traducir Amaze a tu idioma</string>
+    <string name="translate_summary">Traducir File Manager a tu idioma</string>
     <string name="paypal_copy_message">Id de Paypal copiado al portapapeles</string>
     <string name="searching_devices">Buscando dispositivos</string>
     <string name="use_custom_ip">Utilizar IP personalizada</string>
@@ -520,9 +520,9 @@
     <string name="directory">Directorio</string>
 
     <string name="show_bookmarks_pref">Marcadores</string>
-    <string name="cloud_error_plugin">La app "Amaze Cloud plug-in" no pudo ser encontrada. Por favor descargar del Play Store.</string>
+    <string name="cloud_error_plugin">La app "File Manager Cloud plug-in" no pudo ser encontrada. Por favor descargar del Play Store.</string>
     <string name="cloud_error_failed_restart">Falló al cargar la conexión.
-       Por favor abra "Amaze Cloud pug-in" y reintente.</string>
+       Por favor abra "File Manager Cloud pug-in" y reintente.</string>
     <string name="cloud_remove">Desea eliminar esta conexión?</string>
     <string name="cloud_fail_authenticate">Falló al autenticar</string>
     <string name="cloud_share_copied">Link compartible copiado al portapapeles</string>
@@ -559,10 +559,10 @@
     <string name="preference_newstack_summary">Te permite abrir archivos en tareas independientes. Accede a ellas desde la pantalla recientes del sistema.</string>
     <string name="developers">Desarrolladores</string>
     <string name="no_bitcoin_app">Por favor instala un monedero de Bitcoins</string>
-    <string name="channel_name_normal">Notificaciones de Amaze</string>
-    <string name="channel_description_normal">Las notificaciones del explorador de archivos Amaze</string>
-    <string name="channel_name_ftp">Servidor FTP de Amaze</string>
-    <string name="channel_description_ftp">Notificaciones del servidor FTP del administrador de archivos Amaze</string>
+    <string name="channel_name_normal">Notificaciones de File Manager</string>
+    <string name="channel_description_normal">Las notificaciones del explorador de archivos File Manager</string>
+    <string name="channel_name_ftp">Servidor FTP de File Manager</string>
+    <string name="channel_description_ftp">Notificaciones del servidor FTP del administrador de archivos File Manager</string>
 
     <string name="processing">Procesando&#8230;</string>
     <string name="failed_no_connection">Falló al cargar archivos. Por favor chequee la conexión</string>
@@ -579,7 +579,7 @@
     <string name="ssh_authentication_failure_key">Falla de inicio de sesión: No se pudo autenticar el nombre de usuario y la llave de privada.</string>
     <string name="ssh_connect_failed">No se pudo conectar a %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">ADVERTECIA: LA IDENTIFICACIÓN DEL HOST REMOTO A CAMBIADO!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">¡ES POSIBLE QUE ALGUIEN ESTÉ HACIENDO ALGO MALDITO! \n\n¡Alguien podría estar espiándote ahora mismo (ataque man-in-the-middle)! También es posible que la clave de host se haya cambiado. La huella digital de la clave pública enviada por el host remoto no coincide con la almacenada en Amaze.\n\nPóngase en contacto con el administrador del sistema o configure una nueva conexión para continuar conectándose al servidor.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">¡ES POSIBLE QUE ALGUIEN ESTÉ HACIENDO ALGO MALDITO! \n\n¡Alguien podría estar espiándote ahora mismo (ataque man-in-the-middle)! También es posible que la clave de host se haya cambiado. La huella digital de la clave pública enviada por el host remoto no coincide con la almacenada en File Manager.\n\nPóngase en contacto con el administrador del sistema o configure una nueva conexión para continuar conectándose al servidor.</string>
     <string name="ssh_key_prompt_passphrase">Por favor ingrese la frase de contraseña.</string>
     <string name="add_shortcut_not_supported_by_launcher">No es posible la creación de accesos directos en su lanzador de apps.</string>
     
@@ -631,7 +631,7 @@
     <string name="close">Cerrar</string>
     <string name="bookmark_exists">Marcador existe</string>
     <string name="hide_media">Ocultar de los navegadores de medios</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">¡ES POSIBLE QUE ALGUIEN ESTÉ HACIENDO ALGO MALDITO!\n\n¡Alguien podría estar espiándote ahora mismo (ataque man-in-the-middle)! También es posible que la clave de host se haya cambiado. La huella digital de la clave pública enviada por el host remoto no coincide con la almacenada en Amaze.\n\nPuede continuar con la actualización de la huella digital del host o cancelar la actualización de la configuración de conexión SSH.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">¡ES POSIBLE QUE ALGUIEN ESTÉ HACIENDO ALGO MALDITO!\n\n¡Alguien podría estar espiándote ahora mismo (ataque man-in-the-middle)! También es posible que la clave de host se haya cambiado. La huella digital de la clave pública enviada por el host remoto no coincide con la almacenada en File Manager.\n\nPuede continuar con la actualización de la huella digital del host o cancelar la actualización de la configuración de conexión SSH.</string>
     <string name="update_host_key">Actualizar Clave de Host</string>
     <string name="cancel_recommended">Cancelar (Recomendado)</string>
     <string name="failed_install_apk">Fallo en la instalación</string>
@@ -679,10 +679,10 @@
     <string name="legacy_listing_title">Usar listado heredado para root</string>
     <string name="error_permission_denied">Permiso denegado</string>
     <string name="remember">Recordar para la siguiente vez</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Dado que esta es la primera vez que ejecuta el servidor FTP y está utilizando el almacenamiento interno del dispositivo como carpeta compartida, permita que Amaze acceda al almacenamiento mediante SAF.\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Dado que esta es la primera vez que ejecuta el servidor FTP y está utilizando el almacenamiento interno del dispositivo como carpeta compartida, permita que File Manager acceda al almacenamiento mediante SAF.\n\n
 
 Solo necesita hacer esto una vez, hasta la siguiente vez que seleccione una nueva ubicación para compartir.</string>
-    <string name="quick_desc">Archivos accedidos recientemente usando Amaze</string>
+    <string name="quick_desc">Archivos accedidos recientemente usando File Manager</string>
     <string name="recent_desc">Archivos creados o modificados recientemente</string>
 </resources>
 

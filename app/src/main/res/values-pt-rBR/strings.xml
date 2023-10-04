@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">File Manager</string>
     <string name="drawer_open">Abrir menu de navegação</string>
     <string name="drawer_close">Fechar menu de navegação</string>
     <string name="icon">ícone</string>
@@ -156,7 +156,7 @@
     <string name="miscellaneous">Diversos</string>
     <string name="root_pref_summary">Mostra as permissões dos arquivos e pastas</string>
     <string name="root_pref">Mostrar permissões</string>
-    <string name="about_amaze_file_manager_label">Sobre o Amaze</string>
+    <string name="about_amaze_file_manager_label">Sobre o File Manager</string>
     <string name="version">Versão</string>
     <string name="rate">Avalie o aplicativo</string>
     <string name="feedback">Enviar comentários</string>
@@ -295,7 +295,7 @@
     <string name="invalid">Inválido %s</string>
     <string name="ftp_notif_starting">O servidor FTP está iniciando</string>
     <string name="ftp_notif_starting_title">Servidor FTP</string>
-    <string name="ftp_notif_title">Servidor FTP Amaze em execução</string>
+    <string name="ftp_notif_title">Servidor FTP File Manager em execução</string>
     <string name="ftp_notif_text">em %s</string>
     <string name="ftp_notif_stop_server">PARAR</string>
     <string name="ftp_port_edit_menu_title">Porta FTP</string>
@@ -309,7 +309,7 @@
     <string name="source_summary">Veja o nosso código fonte no GitHub</string>
     <string name="report_bugs_summary">Comunique erros encontrados ou solicite novas funcionalidades</string>
     <string name="translate_title">Traduza</string>
-    <string name="translate_summary">Traduza o Amaze para seu idioma</string>
+    <string name="translate_summary">Traduza o File Manager para seu idioma</string>
     <string name="paypal_copy_message">ID do Paypal copiado para a área de transferência</string>
     <string name="searching_devices">Procurando dispositivos</string>
     <string name="use_custom_ip">Usar IP personalizado</string>
@@ -504,8 +504,8 @@
     <string name="directory">Pasta</string>
 
     <string name="show_bookmarks_pref">Favoritos</string>
-    <string name="cloud_error_plugin">O plugin Amaze Cloud não foi encontrado. Faça download a partir da Play Store.</string>
-    <string name="cloud_error_failed_restart">Falha ao carregar a conexão. Por favor, abra o Amaze Cloud uma vez.</string>
+    <string name="cloud_error_plugin">O plugin File Manager Cloud não foi encontrado. Faça download a partir da Play Store.</string>
+    <string name="cloud_error_failed_restart">Falha ao carregar a conexão. Por favor, abra o File Manager Cloud uma vez.</string>
     <string name="cloud_remove">Deseja remover a conexão com a nuvem?</string>
     <string name="cloud_fail_authenticate">Falha ao autenticar</string>
     <string name="cloud_share_copied">Link compartilhável copiado para a área de transferência</string>
@@ -542,10 +542,10 @@
     <string name="preference_newstack_summary">Permite-lhe abrir arquivos em tarefas separadas. Acesse-os a partir da tela de arquivos recentes do sistema.</string>
     <string name="developers">Programadores</string>
     <string name="no_bitcoin_app">Instale uma carteira de bitcoins</string>
-    <string name="channel_name_normal">Notificações do Amaze</string>
-    <string name="channel_description_normal">Notificações do Amaze</string>
-    <string name="channel_name_ftp">Servidor FTP do Amaze</string>
-    <string name="channel_description_ftp">Notificações do servidor FTP do Amaze</string>
+    <string name="channel_name_normal">Notificações do File Manager</string>
+    <string name="channel_description_normal">Notificações do File Manager</string>
+    <string name="channel_name_ftp">Servidor FTP do File Manager</string>
+    <string name="channel_description_ftp">Notificações do servidor FTP do File Manager</string>
 
     <string name="processing">Processando&#8230;</string>
     <string name="failed_no_connection">Ocorreu uma falha ao carregar os arquivos. Verifique sua conexão.</string>
@@ -564,7 +564,7 @@
     <string name="ssh_connect_failed_host_key_changed_title">AVISO: A IDENTIFICAÇÃO DO SERVIDOR REMOTO FOI ALTERADA!</string>
     <string name="ssh_connect_failed_host_key_changed_message">
         É POSSÍVEL QUE ALGUÉM ESTEJA FAZENDO ALGO INDESEJADO!\n\n
-        Alguém pode estar espionando você agora (ataque man-in-the-middle)! Também é possível que a chave do servidor tenha sido alterada. A impressão digital da chave pública enviada pelo servidor remoto não corresponde a armazenada no Amaze\n\n
+        Alguém pode estar espionando você agora (ataque man-in-the-middle)! Também é possível que a chave do servidor tenha sido alterada. A impressão digital da chave pública enviada pelo servidor remoto não corresponde a armazenada no File Manager\n\n
         Entre em contato com o administrador do seu sistema ou configure uma nova conexão para continuar acessando o servidor.
     </string>
     <string name="ssh_key_prompt_passphrase">Digite a senha da chave.</string>
@@ -618,7 +618,7 @@
     <string name="close">Fechar</string>
     <string name="bookmark_exists">Favorito existe</string>
     <string name="hide_media">Ocultar de mídia</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">É POSSÌVEL QUE ALGUÉM ESTEJA FAZENDO ALGO ERRADO!\n\nAlguém poderia estar escutando você agora mesmo (ataque de homem-no-meio)! É talbém possível que a chave de host tenha epenas mudado. O fingerprint para a chave pública enviada ao host remoto não bate com a armazenada no Amaze\n\nVocê pode proceder com a atualização do fingerprint de host ou cancelar a atualização das configurações de SSH</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">É POSSÌVEL QUE ALGUÉM ESTEJA FAZENDO ALGO ERRADO!\n\nAlguém poderia estar escutando você agora mesmo (ataque de homem-no-meio)! É talbém possível que a chave de host tenha epenas mudado. O fingerprint para a chave pública enviada ao host remoto não bate com a armazenada no File Manager\n\nVocê pode proceder com a atualização do fingerprint de host ou cancelar a atualização das configurações de SSH</string>
     <string name="update_host_key">Atualizar Chave de Host</string>
     <string name="cancel_recommended">Cancelar (Recomendado)</string>
     <string name="failed_install_apk">Falha ao instalar</string>
@@ -665,7 +665,7 @@
     <string name="clear_open_file_summary">Limpa os apps de abertura padrão selecionados</string>
     <string name="legacy_listing_title">Usar listagem legada para root</string>
     <string name="error_permission_denied">Permissão negada</string>
-    <string name="quick_desc">Arquivos recentemente acessados pelo Amaze</string>
+    <string name="quick_desc">Arquivos recentemente acessados pelo File Manager</string>
     <string name="recent_desc">Arquivos criados ou modificados recentemente</string>
 </resources>
 

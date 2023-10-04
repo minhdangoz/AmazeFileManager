@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">مدير ملفات Amaze</string>
+    <string name="app_name">مدير ملفات</string>
     <string name="drawer_open">فتح نافذة التنقل</string>
     <string name="drawer_close">إغلاق نافذة التنقل</string>
     <string name="icon">شارة </string>
@@ -689,7 +689,7 @@
     <string name="ftp_prompt_accept_first_start_saf_access">حيث أن هذه هي المرة الأولى التي تقوم فيها بتشغيل وحدة خدمة FTP ، وتقوم باستخدام مساحة التخزين الداخلية الخاصة بالجهاز كحافظة مشتركة ، برجاء السماح لأمازي بالوصول الى مساحة التخزين باستخدام SAF. \n \n 
 
 يجب أن تقوم بذلك مرة واحدة فقط ، حتى تقوم بتحديد مكان جديد للمشاركة فيه في المرة القادمة. </string>
-    <string name="android_data_prompt_saf_access">منذ Android 10 ، فرض Android قيودًا على أدلة معينة ، ويحتاجون إلى الوصول إلى Storage Access Framework.\n\nيُرجى السماح لـ Amaze بالوصول إلى الدليل من مدير ملفات النظام عن طريق النقر على \"السماح بالوصول\".</string>
+    <string name="android_data_prompt_saf_access">منذ Android 10 ، فرض Android قيودًا على أدلة معينة ، ويحتاجون إلى الوصول إلى Storage Access Framework.\n\nيُرجى السماح لـ File Manager بالوصول إلى الدليل من مدير ملفات النظام عن طريق النقر على \"السماح بالوصول\".</string>
     <string name="android_data_prompt_saf_access_title">منح وصول SAF</string>
     <string name="ftp_preference_saf_filesystem_title">استخدم نظام الملفات القديم</string>
     <string name="ftp_preference_saf_filesystem">قم بتمكين هذا لدعم استخدام وحدة التخزين الخارجية للجهاز على إصدارات Android الأحدث</string>

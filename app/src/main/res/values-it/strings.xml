@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">File Manager</string>
     <string name="drawer_open">Apri pannello di navigazione</string>
     <string name="drawer_close">Chiudi pannello di navigazione</string>
     <string name="icon">icona</string>
@@ -305,7 +305,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="invalid">%s non valido</string>
     <string name="ftp_notif_starting">Server FTP in fase di avvio</string>
     <string name="ftp_notif_starting_title">Server FTP</string>
-    <string name="ftp_notif_title">Server FTP Amaze in esecuzione</string>
+    <string name="ftp_notif_title">Server FTP File Manager in esecuzione</string>
     <string name="ftp_notif_text">a %s</string>
     <string name="ftp_notif_stop_server">FERMA</string>
     <string name="ftp_port_edit_menu_title">Scegli la porta FTP</string>
@@ -319,7 +319,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="source_summary">Vedi il nostro codice sorgente su GitHub</string>
     <string name="report_bugs_summary">Segnala bug o richiedi nuove funzionalità</string>
     <string name="translate_title">Traduci</string>
-    <string name="translate_summary">Traduci Amaze nella tua lingua</string>
+    <string name="translate_summary">Traduci File Manager nella tua lingua</string>
     <string name="paypal_copy_message">ID PayPal copiato negli Appunti</string>
     <string name="searching_devices">Ricerca dispositivi in corso</string>
     <string name="use_custom_ip">Utilizza IP personalizzato</string>
@@ -485,8 +485,8 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="edit_bookmark">Modifica segnalibro</string>
     <string name="question_delete_bookmark">Eliminare il segnalibro?</string>
 
-    <string name="cloud_error_plugin">Amaze Cloud plugin non trovato. Si prega di scaricarlo dal Play Store.</string>
-    <string name="cloud_error_failed_restart">Impossibile caricare la connessione.         Si prega di aprire una volta Amaze Cloud.</string>
+    <string name="cloud_error_plugin">File Manager Cloud plugin non trovato. Si prega di scaricarlo dal Play Store.</string>
+    <string name="cloud_error_failed_restart">Impossibile caricare la connessione.         Si prega di aprire una volta File Manager Cloud.</string>
     <string name="cloud_remove">Si desidera rimuovere la connessione cloud?</string>
     <string name="cloud_fail_authenticate">Autenticazione non riuscita</string>
     <string name="cloud_share_copied">Link condivisibile copiato negli Appunti</string>
@@ -523,10 +523,10 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="preference_newstack_summary">Ti permette di aprire file in attività separate. Accedi ad esse dalle schermate di sistema recenti</string>
     <string name="developers">Sviluppatori</string>
     <string name="no_bitcoin_app">Perfavore installa un\'applicazione per i bitcoin wallet</string>
-    <string name="channel_name_normal">Notifiche di Amaze</string>
-    <string name="channel_description_normal">Notifiche del file manager Amaze</string>
-    <string name="channel_name_ftp">Server FTP di Amaze</string>
-    <string name="channel_description_ftp">Notifiche del server FTP del file manager Amaze</string>
+    <string name="channel_name_normal">Notifiche di File Manager</string>
+    <string name="channel_description_normal">Notifiche del file manager File Manager</string>
+    <string name="channel_name_ftp">Server FTP di File Manager</string>
+    <string name="channel_description_ftp">Notifiche del server FTP del file manager File Manager</string>
 
     <string name="processing">Elaborazione&#8230;</string>
     <string name="failed_no_connection">Errore nel caricamento file. Per favore controlla la tua connessione.</string>
@@ -543,7 +543,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="ssh_authentication_failure_key">Accesso fallito: impossibile autenticarsi con username e chiave privata forniti</string>
     <string name="ssh_connect_failed">Impossibile connettersi a %1$s:%2$d:%3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">ATTENZIONE: L\'IDENTIFICATORE DELL\'HOST REMOTO È CAMBIATO!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">È POSSIBILE CHE QUALCUNO STIA MONITORANDO LA CONNESSIONE!\n\nQualcuno potrebbe stare intercettando i tuoi dati (attacco man-in-the-middle)! Potrebbe anche essere possibile che la chiave dell\'host sia cambiata. L\'impronta della chiave pubblica mandata dall\'host remoto non combacia con quella salvata in Amaze.\n\nPer favore contatta il tuo amministratore di rete o crea una nuova connessione per continuare a connetterti al server.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">È POSSIBILE CHE QUALCUNO STIA MONITORANDO LA CONNESSIONE!\n\nQualcuno potrebbe stare intercettando i tuoi dati (attacco man-in-the-middle)! Potrebbe anche essere possibile che la chiave dell\'host sia cambiata. L\'impronta della chiave pubblica mandata dall\'host remoto non combacia con quella salvata in File Manager.\n\nPer favore contatta il tuo amministratore di rete o crea una nuova connessione per continuare a connetterti al server.</string>
     <string name="ssh_key_prompt_passphrase">Per favore inserisci la chiave passphrase.</string>
     <string name="add_shortcut_not_supported_by_launcher">La creazione di scorciatoie non è supportata dal tuo launcher.</string>
     
@@ -577,13 +577,13 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="got_it">Ottenuto!</string>
     <string name="encrypt_file_save_as">Salva il file criptato come&#8230;</string>
     <string name="encrypt_folder_save_as">Salva la cartella criptata come&#8230;</string>
-    <string name="encrypt_option_use_aze">Usa il Formato Crittografico di Amaze</string>
+    <string name="encrypt_option_use_aze">Usa il Formato Crittografico di File Manager</string>
     <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
         <p>AESCrypt è un formato crittografico open source basato su crittografia AES. Inoltre è portabile, può essere decriptato da software AESCrypt su altre piattaforme.</p>
         <p><a href=\"https://www.aescrypt.com\" target=\"_blank>Sito web AESCrypt</a></p>]]>
     </string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>Anche il formato crittografico di Amaze è basato sulla crittografia AES; ma diversamente da AESCrypt, può essere decriptato solo da questo dispositivo; inoltre non devi disinstallare Gestione File Amaze da questo dispositivo né cambiare il blocco schermo, altrimenti il file crittografato non sarà più recuperabile.</p>
+        <p>Anche il formato crittografico di File Manager è basato sulla crittografia AES; ma diversamente da AESCrypt, può essere decriptato solo da questo dispositivo; inoltre non devi disinstallare Gestione File File Manager da questo dispositivo né cambiare il blocco schermo, altrimenti il file crittografato non sarà più recuperabile.</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">I file criptati devono usare l\'estensione \".aze\".</string>
     <string name="encrypt_file_must_end_with_aes">I file criptati devono usare \".aes\" come estensione del file.</string>
@@ -606,7 +606,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="close">Chiudi</string>
     <string name="bookmark_exists">Il segnalibro esiste</string>
     <string name="hide_media">Nascondi dai media del browser</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">È POSSIBILE CHE QUALCUNO STIA MONITORANDO LA CONNESSIONE!\n\nQualcuno potrebbe stare intercettando i tuoi dati (attacco man-in-the-middle)! Potrebbe anche essere possibile che la chiave dell\'host sia cambiata. Il fingerprint della chiave pubblica ricevuto dall\'host remoto non corrisponde a quello memorizzato in Amaze.\n\nPuoi procedere aggiornando il fingerprint oppure annullando l\'aggiornamento delle impostazioni di connessione SSH.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">È POSSIBILE CHE QUALCUNO STIA MONITORANDO LA CONNESSIONE!\n\nQualcuno potrebbe stare intercettando i tuoi dati (attacco man-in-the-middle)! Potrebbe anche essere possibile che la chiave dell\'host sia cambiata. Il fingerprint della chiave pubblica ricevuto dall\'host remoto non corrisponde a quello memorizzato in File Manager.\n\nPuoi procedere aggiornando il fingerprint oppure annullando l\'aggiornamento delle impostazioni di connessione SSH.</string>
     <string name="update_host_key">Aggiorna Chiave Host</string>
     <string name="cancel_recommended">Annulla (Consigliato)</string>
     <string name="failed_install_apk">Installazione fallita</string>
@@ -666,10 +666,10 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="choose_operation">Scegli l\'operazione da eseguire</string>
     <string name="remember">Ricorda la prossima volta</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">Consenti accesso SAF al server FTP</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Dato che questa è la prima esecuzione del server FTP, e che stai usando la memoria interna del dispositivo come cartella condivisa, per favore consenti ad Amaze di accedere alla memoria usando SAF.\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Dato che questa è la prima esecuzione del server FTP, e che stai usando la memoria interna del dispositivo come cartella condivisa, per favore consenti ad File Manager di accedere alla memoria usando SAF.\n\n
 
 Dovrai farlo solo questa volta, fino a quando non sceglierai un percorso diverso da utilizzare.</string>
-    <string name="android_data_prompt_saf_access">Da Android 10 sono imposte restrizioni su alcune cartelle, e per l\'accesso ad esse è necessario usare lo Storage Access Framework.\n\nPer favore consenti ad Amaze di accedere alle cartelle dalla gestione file del sistema selezionando \"Consenti Accesso\".</string>
+    <string name="android_data_prompt_saf_access">Da Android 10 sono imposte restrizioni su alcune cartelle, e per l\'accesso ad esse è necessario usare lo Storage Access Framework.\n\nPer favore consenti ad File Manager di accedere alle cartelle dalla gestione file del sistema selezionando \"Consenti Accesso\".</string>
     <string name="android_data_prompt_saf_access_title">Consenti accesso SAF</string>
     <string name="ftp_preference_saf_filesystem_title">Usa filesystem legacy</string>
     <string name="ftp_preference_saf_filesystem">Abilita questa opzione per usare la memoria esterna del dispositivo sulle versioni più recenti di Android</string>
@@ -692,7 +692,7 @@ Dovrai farlo solo questa volta, fino a quando non sceglierai un percorso diverso
     <string name="select_similar">Seleziona simili</string>
     <string name="error_fetching_google_play_product_list">Errore durante la ricezione della lista prodotti da Google Play.</string>
     <string name="grant_all_files_permission"><html><body>Da Android 11, Google necessita che i File Manager chiedano il permesso dell\'utente per gestire tutti i file del dispositivo. Dettagli <a href="https://developer.android.com/training/data-storage/manage-all-files" target="_blank">qui</a>.
-        \n\nAnche Gestione File Amaze necessita di questo permesso. Dopo aver premuto &quot;Consenti&quot;, seleziona <b>Consenti l\'accesso per gestire tutti i file</b> sulla prossima schermata.
+        \n\nAnche Gestione File File Manager necessita di questo permesso. Dopo aver premuto &quot;Consenti&quot;, seleziona <b>Consenti l\'accesso per gestire tutti i file</b> sulla prossima schermata.
         \n\n<font color='#ff6347'><i>Annullando questa richiesta, l\'app terminerà.</i></font></body></html></string>
     <string name="user_apps">App utente</string>
     <string name="appearance">Aspetto</string>
@@ -702,24 +702,24 @@ Dovrai farlo solo questa volta, fino a quando non sceglierai un percorso diverso
     <string name="behavior_summary">Modifica azioni come la ricerca avanzata e decidi se aprire i file come nuova attività</string>
     <string name="security_summary">Imposta password e crittografia</string>
 
-    <string name="quick_desc">File a cui si è acceduto di recente in Amaze</string>
+    <string name="quick_desc">File a cui si è acceduto di recente in File Manager</string>
     <string name="recent_desc">File creati o modificati di recente</string>
     <string name="error_cannot_find_way_open">Impossibile aprire il file</string>
     <string name="error_cant_decompress_that_file">Impossibile elaborare l\'archivio richiesto</string>
     <string name="analyse_storage">Analizza memoria</string>
-    <string name="download_amaze_utils_text">Stai per essere reindirizzato ad Amaze File Utilities. È la nostra offerta che ha visualizzatori incorporati per audio/video/immagini/documenti, permette di cercare sulle memorie di archiviazione le immagini sfocate/scure, file duplicati, trasferimento veloce tramite Wifi P2P e molto altro.</string>
+    <string name="download_amaze_utils_text">Stai per essere reindirizzato ad File Manager File Utilities. È la nostra offerta che ha visualizzatori incorporati per audio/video/immagini/documenti, permette di cercare sulle memorie di archiviazione le immagini sfocate/scure, file duplicati, trasferimento veloce tramite Wifi P2P e molto altro.</string>
     <string name="download">Scarica</string>
     <string name="wifip2p">Wi-Fi P2P</string>
-    <string name="amaze_utils_installed_alias">Grazie per aver installato Amaze File Utilities. Stai per essere reindirizzato all\'app.</string>
-    <string name="image_viewer">Amaze Image Viewer</string>
-    <string name="video_player">Amaze Video Player</string>
-    <string name="amaze_audio_player">Amaze Music Player</string>
-    <string name="pdf_viewer">Amaze Pdf Viewer</string>
-    <string name="epub_viewer">Amaze Epub Viewer</string>
-    <string name="docx_viewer">Amaze Doc Viewer</string>
+    <string name="amaze_utils_installed_alias">Grazie per aver installato File Manager File Utilities. Stai per essere reindirizzato all\'app.</string>
+    <string name="image_viewer">File Manager Image Viewer</string>
+    <string name="video_player">Video Player</string>
+    <string name="amaze_audio_player">File Manager Music Player</string>
+    <string name="pdf_viewer">File Manager Pdf Viewer</string>
+    <string name="epub_viewer">File Manager Epub Viewer</string>
+    <string name="docx_viewer">File Manager Doc Viewer</string>
     <string name="share_logs">Condividi i log</string>
     <string name="share_logs_summary">Condividi i log acquisiti via email / telegram</string>
-    <string name="open_with_amaze">Apri con Amaze</string>
+    <string name="open_with_amaze">Apri con File Manager</string>
     <string name="confirmation">Conferma</string>
     <string name="open_file_confirmation">Sei sicuro di voler aprire il seguente file?\n\nNome:\n%s\n\nPercorso:\n%s\n\nDimensioni:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
 </resources>

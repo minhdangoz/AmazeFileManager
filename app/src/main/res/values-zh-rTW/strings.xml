@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze 檔案管理員</string>
+    <string name="app_name">File Manager 檔案管理員</string>
     <string name="drawer_open">開啟導覽清單</string>
     <string name="drawer_close">關閉導覽清單</string>
     <string name="icon">圖示</string>
@@ -217,7 +217,7 @@
     <string name="image">圖片</string>
     <string name="contributors">貢獻者</string>
     <string name="save_paths">記得路徑</string>
-    <string name="save_path_summary">當您開啟 Amaze 檔案管理員時，每個頁籤將會顯示您上次檢視的資料夾</string>
+    <string name="save_path_summary">當您開啟 File Manager 檔案管理員時，每個頁籤將會顯示您上次檢視的資料夾</string>
     <string name="select_intent">選擇</string>
     <string name="database">資料庫</string>
     <string name="colored_navigation">導覽列變色</string>
@@ -298,7 +298,7 @@
     <string name="invalid">不正確 %s</string>
     <string name="ftp_notif_starting">FTP 伺服器啟動中</string>
     <string name="ftp_notif_starting_title">FTP 伺服器</string>
-    <string name="ftp_notif_title">Amaze FTP 伺服器執行中</string>
+    <string name="ftp_notif_title">File Manager FTP 伺服器執行中</string>
     <string name="ftp_notif_text">在 %s</string>
     <string name="ftp_notif_stop_server">停止</string>
     <string name="ftp_port_edit_menu_title">選擇 FTP 通訊埠</string>
@@ -312,7 +312,7 @@
     <string name="source_summary">在 Github上檢視我們 app的原始碼</string>
     <string name="report_bugs_summary">回報問題或告訴我們您想要的新功能</string>
     <string name="translate_title">翻譯</string>
-    <string name="translate_summary">用您的語言翻譯 Amaze</string>
+    <string name="translate_summary">用您的語言翻譯 File Manager</string>
     <string name="paypal_copy_message">Paypal ID 已複製到剪貼簿</string>
     <string name="searching_devices">正在搜尋裝置</string>
     <string name="use_custom_ip">使用自訂的 IP</string>
@@ -516,8 +516,8 @@
     <string name="edit_bookmark">編輯書籤</string>
     <string name="question_delete_bookmark">刪除書籤？</string>
 
-    <string name="cloud_error_plugin">找不到 Amaze Cloud 套件。請從 Play 商店中下載。</string>
-    <string name="cloud_error_failed_restart">載入連線失敗。請再開啟一次 Amaze Cloud。</string>
+    <string name="cloud_error_plugin">找不到 File Manager Cloud 套件。請從 Play 商店中下載。</string>
+    <string name="cloud_error_failed_restart">載入連線失敗。請再開啟一次 File Manager Cloud。</string>
     <string name="cloud_remove">您想要移除此雲端連線嗎？</string>
     <string name="cloud_fail_authenticate">身份驗證失敗</string>
     <string name="cloud_share_copied">Sharable 連結已複製到剪貼簿</string>
@@ -556,8 +556,8 @@
     <string name="no_bitcoin_app">請安裝比特幣錢包</string>
     <string name="channel_name_normal">Amaze通知</string>
     <string name="channel_description_normal">Amaze檔案管理員的通知</string>
-    <string name="channel_name_ftp">Amaze FTP 伺服器</string>
-    <string name="channel_description_ftp">來自 Amaze FTP 伺服器的通知</string>
+    <string name="channel_name_ftp">File Manager FTP 伺服器</string>
+    <string name="channel_description_ftp">來自 File Manager FTP 伺服器的通知</string>
 
     <string name="processing">正在處理中&#8230;</string>
     <string name="failed_no_connection">無法載入檔案。請檢查網路連線。</string>
@@ -613,7 +613,7 @@
         <p><a href="https://www.aescrypt.com" target="_blank>AESCrypt 官方網站</a></p>]]>
     </string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>Amaze自有加密方式亦以 AES加密技術為基礎。但跟 AESCrypt格式不同，使用此方式加密的檔案只能在此機器上進行解密。而且你絕不可以從此機器上移除 Amaze 檔案管理員，甚至更改屏幕鎖定設定，否則你將無法對檔案進行解密。</p>
+        <p>Amaze自有加密方式亦以 AES加密技術為基礎。但跟 AESCrypt格式不同，使用此方式加密的檔案只能在此機器上進行解密。而且你絕不可以從此機器上移除 File Manager 檔案管理員，甚至更改屏幕鎖定設定，否則你將無法對檔案進行解密。</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">加密檔案必須以“.aze”為檔案擴展名稱。</string>
     <string name="encrypt_file_must_end_with_aes">加密檔案必須以“.aes”為檔案擴展名稱。</string>

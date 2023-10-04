@@ -303,7 +303,7 @@
     <string name="invalid">Invalid %s</string>
     <string name="ftp_notif_starting">FTP Server is starting</string>
     <string name="ftp_notif_starting_title">FTP Server</string>
-    <string name="ftp_notif_title">Amaze FTP Server running</string>
+    <string name="ftp_notif_title">File Manager FTP Server running</string>
     <string name="ftp_notif_text">at %s</string>
     <string name="ftp_notif_stop_server">STOP</string>
     <string name="ftp_port_edit_menu_title">FTP port</string>
@@ -317,7 +317,7 @@
     <string name="source_summary">View our source code on GitHub</string>
     <string name="report_bugs_summary">Report bugs or request new feature</string>
     <string name="translate_title">Translate</string>
-    <string name="translate_summary">Translate Amaze in your language</string>
+    <string name="translate_summary">Translate File Manager in your language</string>
     <string name="paypal_copy_message">PayPal ID copied to clipboard</string>
     <string name="searching_devices">Searching for devices</string>
     <string name="use_custom_ip">Use custom IP</string>
@@ -533,9 +533,9 @@
     <string name="edit_bookmark">Edit bookmark</string>
     <string name="question_delete_bookmark">Delete bookmark?</string>
 
-    <string name="cloud_error_plugin">Amaze Cloud plugin not found. Please download from Play Store.</string>
+    <string name="cloud_error_plugin">File Manager Cloud plugin not found. Please download from Play Store.</string>
     <string name="cloud_error_failed_restart">Failed to load the connection.
-        Please open Amaze Cloud once.</string>
+        Please open File Manager Cloud once.</string>
     <string name="cloud_remove">Do you want to remove the cloud connection?</string>
     <string name="cloud_fail_authenticate">Failed to authenticate</string>
     <string name="cloud_share_copied">Sharable link copied to clipboard</string>
@@ -596,7 +596,7 @@
     <string name="ssh_authentication_failure_key">Logon failure: Unable to authenticate with supplied username and private key.</string>
     <string name="ssh_connect_failed">Unable to connect to %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\n\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that the host key has just been changed. The fingerprint for the public key sent by the remote host does not match the one stored in Amaze.\n\nPlease contact your system administrator or setup a new connection to continue connecting to the server.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\n\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that the host key has just been changed. The fingerprint for the public key sent by the remote host does not match the one stored in File Manager.\n\nPlease contact your system administrator or setup a new connection to continue connecting to the server.</string>
     <string name="ssh_key_prompt_passphrase">Please enter key passphrase.</string>
     <string name="add_shortcut_not_supported_by_launcher">Shortcuts creation is not supported by your launcher.</string>
     
@@ -631,13 +631,13 @@
     <string name="got_it">Got it!</string>
     <string name="encrypt_file_save_as">Save Encrypted File As&#8230;</string>
     <string name="encrypt_folder_save_as">Save Encrypted Folder As&#8230;</string>
-    <string name="encrypt_option_use_aze">Use Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aze">Use File Manager Encryption Format</string>
     <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
         <p>AESCrypt is an open source file encryption format based on AES encryption. It is also portable, can be decrypted with AESCrypt programs on other platforms.</p>
         <p><a href="https://www.aescrypt.com" target="_blank>AESCrypt website</a></p>]]>
     </string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>Amaze\'s Encryption Format is also based on AES encryption; but different from AESCrypt format, it can only be decrypted by this device; also you must not uninstall File Manager from this device nor change the way you lock screen, otherwise you will have no way to recover the encrypted file.</p>
+        <p>File Manager\'s Encryption Format is also based on AES encryption; but different from AESCrypt format, it can only be decrypted by this device; also you must not uninstall File Manager from this device nor change the way you lock screen, otherwise you will have no way to recover the encrypted file.</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">Encrypted files must use \".aze\" as the file extension.</string>
     <string name="encrypt_file_must_end_with_aes">Encrypted files must use \".aes\" as the file extension.</string>
@@ -661,7 +661,7 @@
     <string name="close">Close</string>
     <string name="bookmark_exists">Bookmark exists</string>
     <string name="hide_media">Hide from media browsers</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\n\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that the host key has just been changed. The fingerprint for the public key sent by the remote host does not match the one stored in Amaze.\n\nYou may proceed with updating host fingerprint or cancel updating SSH connection settings.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\n\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)! It is also possible that the host key has just been changed. The fingerprint for the public key sent by the remote host does not match the one stored in File Manager.\n\nYou may proceed with updating host fingerprint or cancel updating SSH connection settings.</string>
     <string name="update_host_key">Update Host Key</string>
     <string name="cancel_recommended">Cancel (Recommended)</string>
     <string name="cloud_plugin_google_play_uri" translatable="false">market://details?id=com.filemanager.amazecloud</string>
@@ -725,10 +725,10 @@
     <string name="choose_operation">Choose operation to perform</string>
     <string name="remember">Remember for next time</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">Grant SAF access for FTP server</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Since this is your first run of the FTP server, and you are using the device\'s internal storage as shared folder, please allow Amaze to access the storage using SAF.\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Since this is your first run of the FTP server, and you are using the device\'s internal storage as shared folder, please allow File Manager to access the storage using SAF.\n\n
 
 You only need to do this once, until the next time you select a new location for sharing.</string>
-    <string name="android_data_prompt_saf_access">Since Android 10, Android had imposed restrictions on certain directories, and they need to access with Storage Access Framework.\n\nPlease allow Amaze to access the directory from the system\'s file manager by tapping \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access">Since Android 10, Android had imposed restrictions on certain directories, and they need to access with Storage Access Framework.\n\nPlease allow File Manager to access the directory from the system\'s file manager by tapping \"Allow Access\".</string>
     <string name="android_data_prompt_saf_access_title">Grant SAF access</string>
     <string name="ftp_preference_saf_filesystem_title">Use legacy filesystem</string>
     <string name="ftp_preference_saf_filesystem">Enable this for support for using device external storage on newer Android versions</string>
@@ -760,31 +760,31 @@ You only need to do this once, until the next time you select a new location for
     <string name="ui_summary">Control what information to show, customize the sidebar, and toggle UI preferences</string>
     <string name="behavior_summary">Modify behaviors such as advanced search and whether to open files as a new task</string>
     <string name="security_summary">Set up password and encryption</string>
-    <string name="backup_summary">Export/Import Amaze settings</string>
+    <string name="backup_summary">Export/Import File Manager settings</string>
 
     <string name="pref_export">Export</string>
     <string name="pref_export_summary">Export settings</string>
     <string name="pref_import">Import</string>
     <string name="pref_import_summary">Import settings</string>
 
-    <string name="quick_desc">Files recently accessed through Amaze</string>
+    <string name="quick_desc">Files recently accessed through File Manager</string>
     <string name="recent_desc">Recently created or modified files</string>
     <string name="error_cannot_find_way_open">Could not find way to open the file</string>
     <string name="error_cant_decompress_that_file">Cannot process the requested archive</string>
     <string name="analyse_storage">Analyse Storage</string>
-    <string name="amaze_file_utilities" translatable="false">Amaze File Utilities</string>
-    <string name="download_amaze_utils_text">You\'re being redirected to Amaze File Utilities. It\'s our open source app that has inbuilt audio/video/image/document viewers, allows you to analyse junk files to free up storage, fast transfer using Wifi P2P and much more.\nPlease support us by trying it out.</string>
+    <string name="amaze_file_utilities" translatable="false">File Manager File Utilities</string>
+    <string name="download_amaze_utils_text">You\'re being redirected to File Manager File Utilities. It\'s our open source app that has inbuilt audio/video/image/document viewers, allows you to analyse junk files to free up storage, fast transfer using Wifi P2P and much more.\nPlease support us by trying it out.</string>
     <string name="download">Download</string>
     <string name="wifip2p">Wi-Fi P2P</string>
-    <string name="amaze_utils_installed_alias">Thank you for installing Amaze File Utilities. You\'re being redirected to the app.</string>
-    <string name="image_viewer">Amaze Image Viewer</string>
-    <string name="video_player">Amaze Video Player</string>
-    <string name="amaze_audio_player">Amaze Music Player</string>
-    <string name="pdf_viewer">Amaze Document Viewer</string>
-    <string name="docx_viewer">Amaze Document Viewer</string>
+    <string name="amaze_utils_installed_alias">Thank you for installing File Manager File Utilities. You\'re being redirected to the app.</string>
+    <string name="image_viewer">File Manager Image Viewer</string>
+    <string name="video_player">Video Player</string>
+    <string name="amaze_audio_player">File Manager Music Player</string>
+    <string name="pdf_viewer">File Manager Document Viewer</string>
+    <string name="docx_viewer">File Manager Document Viewer</string>
     <string name="share_logs">Share logs</string>
     <string name="share_logs_summary">Share captured logs via email / telegram</string>
-    <string name="open_with_amaze">Open with Amaze</string>
+    <string name="open_with_amaze">Open with File Manager</string>
     <string name="confirmation">Confirmation</string>
     <string name="open_file_confirmation">Are you sure you want to open following file?\n\nName:\n%s\n\nLocation:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
     <string name="error_google_play_cannot_update_myself">Per Google Play policy mandates, apps are not allowed to update itself on its own. Please update app from Google Play.</string>
@@ -802,9 +802,9 @@ You only need to do this once, until the next time you select a new location for
     <string name="invalid_backup_file">Invalid backup file</string>
     <string name="import_failed_for">Import failed for:</string>
     <string name="free_of">"%s\n%s free of %s</string>
-    <string name="cloud_error_fdroid">Amaze Cloud Plugin not supported with F-Droid version. Please use Play Store version of Amaze.</string>
+    <string name="cloud_error_fdroid">File Manager Cloud Plugin not supported with F-Droid version. Please use Play Store version of File Manager.</string>
     <string name="disable_player_intent_filters">Disable player intent filters</string>
-    <string name="disable_player_intent_filters_summary">Disables Amaze inbuilt media players from file chooser</string>
+    <string name="disable_player_intent_filters_summary">Disables File Manager inbuilt media players from file chooser</string>
     <string name="no_app_found_intent">No app found to handle this intent. Do you have DocumentsUI installed?</string>
     <string name="cloud_connection_credentials_cleared">Cloud Connection credentials cleared</string>
     <string name="cloud_connection_credentials_cleared_msg">Unfortunately, we were unable to migrate your cloud connection credentials to the new database schema, and we had to remove them from the app. Please create the cloud connection again.</string>

@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze Dateimanager</string>
+    <string name="app_name">File Manager Dateimanager</string>
     <string name="drawer_open">Öffne Navigationsleiste</string>
     <string name="drawer_close">Schließe Navigationsleiste</string>
     <string name="icon">Symbol</string>
@@ -302,7 +302,7 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="invalid">Ungültig %s</string>
     <string name="ftp_notif_starting">FTP-Server startet</string>
     <string name="ftp_notif_starting_title">FTP-Server</string>
-    <string name="ftp_notif_title">Amaze FTP-Server startet</string>
+    <string name="ftp_notif_title">File Manager FTP-Server startet</string>
     <string name="ftp_notif_text">bei %s</string>
     <string name="ftp_notif_stop_server">STOPP</string>
     <string name="ftp_port_edit_menu_title">FTP-Port wählen</string>
@@ -316,7 +316,7 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="source_summary">Quelltext auf Github anzeigen</string>
     <string name="report_bugs_summary">Melde Fehler oder schlage neue Funktionen vor</string>
     <string name="translate_title">Übersetzen</string>
-    <string name="translate_summary">Übersetze Amaze in deine Sprache</string>
+    <string name="translate_summary">Übersetze File Manager in deine Sprache</string>
     <string name="paypal_copy_message">PayPal-ID in die Zwischenablage kopiert</string>
     <string name="searching_devices">Suche nach Geräten</string>
     <string name="use_custom_ip">Verwende benutzerdefinierte IP</string>
@@ -483,9 +483,9 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="edit_bookmark">Lesezeichen bearbeiten</string>
     <string name="question_delete_bookmark">Lesezeichen löschen?</string>
 
-    <string name="cloud_error_plugin">Amaze Cloud-Plugin konnte nicht gefunden werden. Bitte laden Sie es aus dem Play Store herunter.</string>
+    <string name="cloud_error_plugin">File Manager Cloud-Plugin konnte nicht gefunden werden. Bitte laden Sie es aus dem Play Store herunter.</string>
     <string name="cloud_error_failed_restart">Fehler beim Laden der Verbindung.
-         Bitte öffnen Sie Amaze Cloud einmal.</string>
+         Bitte öffnen Sie File Manager Cloud einmal.</string>
     <string name="cloud_remove">Möchten Sie die Cloud-Verbindung entfernen?</string>
     <string name="cloud_fail_authenticate">Authentifizierung fehlgeschlagen</string>
     <string name="cloud_share_copied">Teilbarer Link wurde in die Zwischenablage kopiert</string>
@@ -522,10 +522,10 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="preference_newstack_summary">Erlaubt es Ihnen, Dateien in verschiedenen Aufgaben zu öffnen. Greifen Sie über die Anzeige des letzten Bildschirms des Systems zu.</string>
     <string name="developers">Entwickler</string>
     <string name="no_bitcoin_app">Bitte installieren Sie eine Bitcoin-Wallet-App</string>
-    <string name="channel_name_normal">Amaze-Benachrichtigungen</string>
-    <string name="channel_description_normal">Benachrichtigungen von Amaze Dateimanager </string>
-    <string name="channel_name_ftp">Amaze FTP-Server</string>
-    <string name="channel_description_ftp">Benachrichtigungen für den Amaze Dateimanager FTP-Server</string>
+    <string name="channel_name_normal">File Manager-Benachrichtigungen</string>
+    <string name="channel_description_normal">Benachrichtigungen von File Manager Dateimanager </string>
+    <string name="channel_name_ftp">File Manager FTP-Server</string>
+    <string name="channel_description_ftp">Benachrichtigungen für den File Manager Dateimanager FTP-Server</string>
 
     <string name="processing">Bearbeite&#8230;</string>
     <string name="failed_no_connection">Dateien konnten nicht geladen werden. Bitte prüfen Sie Ihre Internetverbindung.</string>
@@ -544,7 +544,7 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="ssh_authentication_failure_key">Anmeldung fehlgeschlagen: Benutzername oder Privater Schlüssel ungültig.</string>
     <string name="ssh_connect_failed">Kann keine Verbindung herstellen zu %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">WARNUNG: DIE ID DES ENTFERNTEN COMPUTERS HAT SICH VERÄNDERT!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">ES IST MÖGLICH, DASS JEMAND ETWAS BÖSARTIGES TUT!\n\nJemand könnte Sie möglicherweise gerade beobachten (man-in-the-middle-Angriff)! Es wäre aber auch möglich, dass sich lediglich der Geräteschlüssel verändert hat. Der Fingerabdruck für den öffentlichen Schlüssel, der vom entfernten Gerät gesendet wurde, passt nicht zu dem in Amaze gespeicherten.\n\nBitte kontaktieren Sie Ihren Systemadministrator oder richten Sie eine neue Verbindung ein, um sich weiterhin mit dem Server zu verbinden.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ES IST MÖGLICH, DASS JEMAND ETWAS BÖSARTIGES TUT!\n\nJemand könnte Sie möglicherweise gerade beobachten (man-in-the-middle-Angriff)! Es wäre aber auch möglich, dass sich lediglich der Geräteschlüssel verändert hat. Der Fingerabdruck für den öffentlichen Schlüssel, der vom entfernten Gerät gesendet wurde, passt nicht zu dem in File Manager gespeicherten.\n\nBitte kontaktieren Sie Ihren Systemadministrator oder richten Sie eine neue Verbindung ein, um sich weiterhin mit dem Server zu verbinden.</string>
     <string name="ssh_key_prompt_passphrase">Bitte geben Sie die Schlüsselpassphrase ein.</string>
     <string name="add_shortcut_not_supported_by_launcher">Die Erstellung von Verknüpfungen wird von Ihrem Launcher nicht unterstützt.</string>
     
@@ -578,13 +578,13 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="got_it">Alles klar!</string>
     <string name="encrypt_file_save_as">Verschlüsselte Datei speichern als&#8230;</string>
     <string name="encrypt_folder_save_as">Verschlüsselten Ordner speichern als&#8230;</string>
-    <string name="encrypt_option_use_aze">Amaze-Verschlüsselungsformat verwenden</string>
+    <string name="encrypt_option_use_aze">File Manager-Verschlüsselungsformat verwenden</string>
     <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
         <p>AESCrypt ist ein quelloffenes Verschlüsselungsformat basierend auf AES. Es ist universal und kann mit AESCrypt-Programmen auf anderen Plattformen entschlüsselt werden.</p>
         <p><a href=\"https://www.aescrypt.com\" target=\"_blank>AESCrypt Webseite</a></p>]]>
 </string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>Das Verschlüsselungsformat von Amaze basiert ebenfalls auf AES, unterscheidet sich aber vom AESCrypt-Format. Es kann nur von diesem Gerät entschlüsselt werden. Es sollte beachtet werden, dass mit der Deinstallation von File Manager auf diesem Gerät oder bei Änderung wie der Sperrbildschirm gehandhabt wird, verschlüsselte Dateien nicht wiederhergestellt werden können.</p>
+        <p>Das Verschlüsselungsformat von File Manager basiert ebenfalls auf AES, unterscheidet sich aber vom AESCrypt-Format. Es kann nur von diesem Gerät entschlüsselt werden. Es sollte beachtet werden, dass mit der Deinstallation von File Manager auf diesem Gerät oder bei Änderung wie der Sperrbildschirm gehandhabt wird, verschlüsselte Dateien nicht wiederhergestellt werden können.</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">Verschlüsselte Dateien müssen \".aze\" als Dateierweiterung verwenden.</string>
     <string name="encrypt_file_must_end_with_aes">Verschlüsselte Dateien müssen \".aes\" als Dateierweiterung verwenden.</string>
@@ -607,7 +607,7 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="close">Schließen</string>
     <string name="bookmark_exists">Lesezeichen existiert</string>
     <string name="hide_media">Vor Media-Browser verstecken</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">ES IST MÖGLICH, DASS JEMAND ETWAS BÖSARTIGES TUT!\n\nJemand könnte Sie möglicherweise gerade beobachten (man-in-the-middle-Angriff)! Es wäre aber auch möglich, dass sich lediglich der Geräteschlüssel verändert hat. Der Fingerabdruck für den öffentlichen Schlüssel, der vom entfernten Gerät gesendet wurde, passt nicht zu dem in Amaze gespeicherten.\n\nSie können den Fingerabdruck des Geräts aktualisieren oder die Aktualisierung der Einstellungen für SSH-Verbindungen abbrechen.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ES IST MÖGLICH, DASS JEMAND ETWAS BÖSARTIGES TUT!\n\nJemand könnte Sie möglicherweise gerade beobachten (man-in-the-middle-Angriff)! Es wäre aber auch möglich, dass sich lediglich der Geräteschlüssel verändert hat. Der Fingerabdruck für den öffentlichen Schlüssel, der vom entfernten Gerät gesendet wurde, passt nicht zu dem in File Manager gespeicherten.\n\nSie können den Fingerabdruck des Geräts aktualisieren oder die Aktualisierung der Einstellungen für SSH-Verbindungen abbrechen.</string>
     <string name="update_host_key">Geräteschlüssel aktualisieren</string>
     <string name="cancel_recommended">Abbrechen (empfohlen)</string>
     <string name="failed_install_apk">Installation fehlgeschlagen</string>
@@ -667,10 +667,10 @@ andernfalls wird nach Treffern gesucht.</string>
     <string name="choose_operation">Aktion für Durchführung auswählen</string>
     <string name="remember">Für nächstes mal merken</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">Für FTP-Server den Zugriff auf SAF gewähren</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Da dies der erste Start des FTP-Servers ist und Sie den internen Speicher als freigegebenen Ordner verwenden, erlauben Sie Amaze den Zugriff auf den Speicher über das Storage Access Framework (SAF).\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Da dies der erste Start des FTP-Servers ist und Sie den internen Speicher als freigegebenen Ordner verwenden, erlauben Sie File Manager den Zugriff auf den Speicher über das Storage Access Framework (SAF).\n\n
 
 Sie müssen diesen Schritt nur einmalig ausführen, bis Sie einen neuen Ort für die Datenfreigabe verwenden.</string>
-    <string name="android_data_prompt_saf_access">Seit Android 10 gibt es bestimmte Einschränkungen auf Verzeichnisse. Für den Zugriff ist das Storage Access Framework (SAF) erforderlich.\n\nBitte erlauben Sie Amaze den Zugriff auf das Verzeichnis vom systemweiten Dateimanager aus, durch Drücken auf \"Zugriff erlauben\".</string>
+    <string name="android_data_prompt_saf_access">Seit Android 10 gibt es bestimmte Einschränkungen auf Verzeichnisse. Für den Zugriff ist das Storage Access Framework (SAF) erforderlich.\n\nBitte erlauben Sie File Manager den Zugriff auf das Verzeichnis vom systemweiten Dateimanager aus, durch Drücken auf \"Zugriff erlauben\".</string>
     <string name="android_data_prompt_saf_access_title">Zugriff auf SAF erlauben</string>
     <string name="ftp_preference_saf_filesystem_title">Älteres Dateisystem verwenden</string>
     <string name="ftp_preference_saf_filesystem">Auf neuen Android-Versionen aktivieren, für die Unterstützung zur Verwendung externer Speichergeräte</string>
@@ -703,24 +703,24 @@ Sie müssen diesen Schritt nur einmalig ausführen, bis Sie einen neuen Ort für
     <string name="behavior_summary">Ändern Sie Verhaltensweisen wie die erweiterte Suche und ob Dateien als neuer Task geöffnet werden sollen</string>
     <string name="security_summary">Passwort und Verschlüsselung festlegen</string>
 
-    <string name="quick_desc">Dateien, auf die über Amaze kürzlich zugegriffen wurde</string>
+    <string name="quick_desc">Dateien, auf die über File Manager kürzlich zugegriffen wurde</string>
     <string name="recent_desc">Kürzlich erstellte oder geänderte Dateien</string>
     <string name="error_cannot_find_way_open">Keine Möglichkeit gefunden, die Datei zu öffnen</string>
     <string name="error_cant_decompress_that_file">Angefragtes Archiv kann nicht bearbeitet werden</string>
     <string name="analyse_storage">Speicher analysieren</string>
-    <string name="download_amaze_utils_text">Sie werden zur den Amaze File Utilities weitergeleitet.Es ist unser Angebot, das über integrierte Audio-/Video-/Bild-/Dokumentenbetrachter verfügt, mit denen Sie gespeicherte Dateien auf verschwommene/dunkle Bilder und doppelte Dateien analysieren können, sowie schnelle Übertragung mit Wifi P2P und vieles mehr.\nBitte unterstützen Sie uns, indem Sie es ausprobieren. </string>
+    <string name="download_amaze_utils_text">Sie werden zur den File Manager File Utilities weitergeleitet.Es ist unser Angebot, das über integrierte Audio-/Video-/Bild-/Dokumentenbetrachter verfügt, mit denen Sie gespeicherte Dateien auf verschwommene/dunkle Bilder und doppelte Dateien analysieren können, sowie schnelle Übertragung mit Wifi P2P und vieles mehr.\nBitte unterstützen Sie uns, indem Sie es ausprobieren. </string>
     <string name="download">Download</string>
     <string name="wifip2p">Wi-Fi P2P</string>
-    <string name="amaze_utils_installed_alias">Danke für die Installation der Amaze File Utilities. Sie werden zur App weitergeleitet.</string>
-    <string name="image_viewer">Amaze-Bildbetrachter</string>
-    <string name="video_player">Amaze-Videoplayer</string>
-    <string name="amaze_audio_player">Amaze-Musikplayer</string>
-    <string name="pdf_viewer">Amaze-PDF-Betrachter</string>
-    <string name="epub_viewer">Amaze-Epub-Betrachter</string>
-    <string name="docx_viewer">Amaze-Doc-Betrachter</string>
+    <string name="amaze_utils_installed_alias">Danke für die Installation der File Manager File Utilities. Sie werden zur App weitergeleitet.</string>
+    <string name="image_viewer">File Manager-Bildbetrachter</string>
+    <string name="video_player">File Manager-Videoplayer</string>
+    <string name="amaze_audio_player">File Manager-Musikplayer</string>
+    <string name="pdf_viewer">File Manager-PDF-Betrachter</string>
+    <string name="epub_viewer">File Manager-Epub-Betrachter</string>
+    <string name="docx_viewer">File Manager-Doc-Betrachter</string>
     <string name="share_logs">Protokolle teilen</string>
     <string name="share_logs_summary">Erstellte Protokolle per E-Mail / Telegram teilen</string>
-    <string name="open_with_amaze">Mit Amaze öffnen</string>
+    <string name="open_with_amaze">Mit File Manager öffnen</string>
     <string name="confirmation">Bestätigung</string>
     <string name="open_file_confirmation">Sind Sie sicher, dass Sie die folgende Datei öffnen wollen?\n\nName:\n%s\n\nOrt:\n%s\n\nGröße:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
     <string name="error_google_play_cannot_update_myself">Laut Google Play-Richtlinien ist es Apps nicht gestattet, sich selbsttätig zu aktualisieren. Bitte aktualisieren Sie die App über den Play Store.</string>
@@ -729,6 +729,6 @@ Sie müssen diesen Schritt nur einmalig ausführen, bis Sie einen neuen Ort für
     <string name="preference_delete_confirmation_summary">Sicherheitsabfrage vor dem Löschen von Dateien. Dies sollte möglichst nicht deaktiviert werden. </string>
     <string name="protocol_ftps">Secure FTP</string>
     <string name="unavailable">Nicht verfügbar</string>
-    <string name="cloud_error_fdroid">Das Amaze Cloud-Plug-In wird von der F-Droid-Version nicht unterstützt. Bitte verwenden Sie die Play Store-Version von Amaze.</string>
+    <string name="cloud_error_fdroid">Das File Manager Cloud-Plug-In wird von der F-Droid-Version nicht unterstützt. Bitte verwenden Sie die Play Store-Version von File Manager.</string>
 </resources>
 

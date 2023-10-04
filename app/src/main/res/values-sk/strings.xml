@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">File Manager</string>
     <string name="drawer_open">Otvoriť navigačný panel</string>
     <string name="drawer_close">Zavrieť navigačný panel</string>
     <string name="icon">ikona</string>
@@ -152,7 +152,7 @@
     <string name="miscellaneous">Rôzne</string>
     <string name="root_pref_summary">Zobraziť povolenia na súbory a priečinky</string>
     <string name="root_pref">Zobraziť povolenia</string>
-    <string name="about_amaze_file_manager_label">O správcovi súborov Amaze</string>
+    <string name="about_amaze_file_manager_label">O správcovi súborov File Manager</string>
     <string name="version">Verzia</string>
     <string name="rate">Ohodnotiť aplikáciu</string>
     <string name="feedback">Odoslať spätnú väzbu</string>
@@ -290,7 +290,7 @@
     <string name="invalid">Neplatné %s</string>
     <string name="ftp_notif_starting">FTP Server sa spúšťa</string>
     <string name="ftp_notif_starting_title">FTP Server</string>
-    <string name="ftp_notif_title">Amaze FTP Server beží</string>
+    <string name="ftp_notif_title">File Manager FTP Server beží</string>
     <string name="ftp_notif_text">na %s</string>
     <string name="ftp_notif_stop_server">STOP</string>
     <string name="ftp_port_edit_menu_title">FTP port</string>
@@ -302,7 +302,7 @@
     <string name="report_bugs_title">Nahlásiť chyby</string>
     <string name="report_bugs_summary">Nahlásiť chyby alebo požiadať o novú funkciu</string>
     <string name="translate_title">Preložiť</string>
-    <string name="translate_summary">Preložiť Amaze do vašho jazyka</string>
+    <string name="translate_summary">Preložiť File Manager do vašho jazyka</string>
     <string name="paypal_copy_message">Paypal id bol skopírovaný do schránky</string>
     <string name="searching_devices">Vyhľadávajú sa zariadenia...</string>
     <string name="use_custom_ip">Použiť inú IP</string>
@@ -493,8 +493,8 @@
     <string name="directory">Adresár</string>
 
     <string name="show_bookmarks_pref">Záložky</string>
-    <string name="cloud_error_plugin">Amaze Cloud plugin nebol nájdený. Stiahnite si ho prosím z obchodu Play.</string>
-    <string name="cloud_error_failed_restart">Spojenie sa nepodarilo nadviazať.  Prosím najprv otvorte Amaze Cloud.</string>
+    <string name="cloud_error_plugin">File Manager Cloud plugin nebol nájdený. Stiahnite si ho prosím z obchodu Play.</string>
+    <string name="cloud_error_failed_restart">Spojenie sa nepodarilo nadviazať.  Prosím najprv otvorte File Manager Cloud.</string>
     <string name="cloud_remove">Chcete odstrániť pripojenie na cloud?</string>
     <string name="cloud_fail_authenticate">Overenie zlyhalo</string>
     <string name="cloud_share_copied">Zdieľaný odkaz bol skopírovaný do schránky</string>

@@ -297,7 +297,7 @@ Se inativa, será procurada qualquer correspondência.</string>
     <string name="report_bugs_title">Reporte de erros</string>
     <string name="report_bugs_summary">Reporte de erros e novas funcionalidades</string>
     <string name="translate_title">Tradução</string>
-    <string name="translate_summary">Traduza o Amaze para o seu idioma</string>
+    <string name="translate_summary">Traduza o File Manager para o seu idioma</string>
     <string name="easter_egg_title">Modo estúdio</string>
     <string name="paypal_copy_message">ID Paypal copiada para a área de transferência</string>
     <string name="searching_devices">A pesquisar por dispositivos</string>
@@ -389,7 +389,7 @@ Se inativa, será procurada qualquer correspondência.</string>
     <string name="blue">Azul</string>
     <string name="green">Verde</string>
     <string name="close">Fechar</string>
-    <string name="quick_desc">Ficheiros acedidos recentemente pelo Amaze</string>
+    <string name="quick_desc">Ficheiros acedidos recentemente pelo File Manager</string>
     <string name="recent_desc">Ficheiros recentemente criados ou modificados</string>
 </resources>
 
