@@ -6,6 +6,15 @@ apply plugin: 'com.hiya.jacoco-android'
 apply plugin: "com.starter.easylauncher"
 
 
+Properties keystoreProperties = new Properties()
+def keystorePropertiesFile = new File('../keystore.properties')
+
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+} else{
+    println "--> keystore not exists"
+}
+
 android {
     compileSdkVersion 34
     packagingOptions {
@@ -36,7 +45,14 @@ android {
     }
 
     signingConfigs {
-        release
+        if (keystorePropertiesFile.exists()) {
+            register("release") {
+                keyAlias = keystoreProperties.getProperty("keyAlias")
+                keyPassword = keystoreProperties.getProperty("keyPassword")
+                storeFile = file(keystoreProperties.getProperty("storeFile"))
+                storePassword = keystoreProperties.getProperty("storePassword")
+            }
+        }
         config
     }
 
@@ -52,7 +68,9 @@ android {
         }
 
         release {
-            signingConfig signingConfigs.release
+            if (keystorePropertiesFile.exists()) {
+                signingConfig = signingConfigs.getByName("release")
+            }
 
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
@@ -72,12 +90,12 @@ android {
         fdroid {
             dimension 'static'
             buildConfigField "boolean", "IS_VERSION_FDROID", "true"
+
         }
 
         play {
             dimension 'static'
             buildConfigField "boolean", "IS_VERSION_FDROID", "false"
-            signingConfig signingConfigs.config
         }
     }
 
@@ -311,29 +329,6 @@ tasks.withType(Test) {
     jacoco.excludes = ['jdk.internal.*']
 }
 
-Properties props = new Properties()
-def propFile = new File('signing.properties')
-
-if (propFile.canRead()) {
-    props.load(new FileInputStream(propFile))
-
-    if (props != null &&
-            props.containsKey('STORE_FILE') &&
-            props.containsKey('STORE_PASSWORD') &&
-            props.containsKey('KEY_ALIAS') &&
-            props.containsKey('KEY_PASSWORD')) {
-        android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
-        android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
-        android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
-        android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
-    } else {
-        println 'signing.properties found but some entries are missing'
-        android.buildTypes.release.signingConfig = null
-    }
-} else {
-    println 'signing.properties not found'
-    android.buildTypes.release.signingConfig = null
-}
 repositories {
     mavenCentral()
 }
