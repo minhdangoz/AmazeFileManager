@@ -265,15 +265,18 @@ public class SmbConnectDialog extends DialogFragment {
           int domainDelim = !inf.contains(";") ? 0 : inf.indexOf(';');
           domainp = inf.substring(0, domainDelim);
           if (domainp != null && domainp.length() > 0) inf = inf.substring(domainDelim + 1);
-          userp = inf.substring(0, inf.indexOf(":"));
-          try {
-            passp =
-                PasswordUtil.INSTANCE.decryptPassword(
-                    context, inf.substring(inf.indexOf(COLON) + 1), URL_SAFE);
-            passp = decode(passp, Charsets.UTF_8.name());
-          } catch (GeneralSecurityException | IOException e) {
-            LOG.warn("Error decrypting password", e);
-            passp = "";
+          if (!inf.contains(":")) userp = inf;
+          else {
+            userp = inf.substring(0, inf.indexOf(COLON));
+            try {
+              passp =
+                  PasswordUtil.INSTANCE.decryptPassword(
+                      context, inf.substring(inf.indexOf(COLON) + 1), URL_SAFE);
+              passp = decode(passp, Charsets.UTF_8.name());
+            } catch (GeneralSecurityException | IOException e) {
+              LOG.warn("Error decrypting password", e);
+              passp = "";
+            }
           }
           domain.setText(domainp);
           user.setText(userp);
@@ -307,7 +310,7 @@ public class SmbConnectDialog extends DialogFragment {
     }
 
     ba3.customView(binding.getRoot(), true);
-    ba3.theme(utilsProvider.getAppTheme().getMaterialDialogTheme(context));
+    ba3.theme(utilsProvider.getAppTheme().getMaterialDialogTheme());
     ba3.neutralText(android.R.string.cancel);
     ba3.positiveText(edit ? R.string.update : R.string.create);
     if (edit) ba3.negativeText(R.string.delete);
