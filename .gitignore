@@ -331,3 +331,4 @@ captures
 
 # sign config
 signing.properties
+*.txt

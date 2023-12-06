@@ -16,7 +16,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 33
     packagingOptions {
         resources {
             excludes += ['proguard-project.txt', 'project.properties', 'META-INF/LICENSE.txt', 'META-INF/LICENSE', 'META-INF/NOTICE.txt', 'META-INF/NOTICE', 'META-INF/DEPENDENCIES.txt', 'META-INF/DEPENDENCIES']
@@ -27,7 +27,7 @@ android {
     defaultConfig {
         applicationId "com.mobilestartools.filemanager"
         minSdkVersion 19
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode 118
         versionName "3.8.5"
         multiDexEnabled true
@@ -42,6 +42,41 @@ android {
                               "room.expandProjection": "true"]
             }
         }
+
+        setProperty("archivesBaseName", "${rootProject.name}-${versionName}")
+
+    }
+
+
+    applicationVariants.all { variant ->
+        if (variant.getBuildType().isMinifyEnabled()) {
+            variant.assemble.doLast {
+                copy {
+                    from variant.mappingFile
+                    into "${projectDir}/release"
+                    rename { String fileName ->
+                        "mapping-${versionName}.txt"
+                    }
+                }
+
+                variant.outputs.each { output->
+                    def apkProcess = output.getOutputFile();
+                    copy {
+                        from "$apkProcess"
+                        into "${projectDir}/release"
+                        // rename ("$apkProcess.name", "$apkProcessNewName")
+                    }
+                }
+            }
+        }
+
+        if (variant.getBuildType().name == "release"){
+            variant.outputs.all { output ->
+                def apkName = "Star-File-" + android.defaultConfig.versionName +"-release.apk"
+                outputFileName = apkName
+            }
+        }
+
     }
 
     signingConfigs {
@@ -98,6 +133,7 @@ android {
             buildConfigField "boolean", "IS_VERSION_FDROID", "false"
         }
     }
+
 
     sourceSets {
         test.java.srcDirs += '../testShared/src/test/java'

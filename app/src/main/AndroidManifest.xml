@@ -52,10 +52,10 @@
 
     <application
         android:name=".application.AppConfig"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_indigo"
         android:label="@string/appbar_name"
         android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_indigo"
         android:usesCleartextTraffic="true"
         tools:replace="android:label">
 
