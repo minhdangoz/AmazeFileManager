@@ -28,7 +28,7 @@ android {
         applicationId "com.mobilestartools.filemanager"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 118
+        versionCode 119
         versionName "3.8.5"
         multiDexEnabled true
 

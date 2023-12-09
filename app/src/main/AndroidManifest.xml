@@ -113,7 +113,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="com.amaze.filemanager" />
+                <data android:scheme="com.mobilestartools.filemanager" />
             </intent-filter>
 
             <intent-filter android:label="@string/open_with_amaze">
@@ -123,7 +123,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="teamamaze.xyz"
+                    android:host="mobilestartools.com"
                     android:pathPrefix="/open_file"
                     android:scheme="http" />
             </intent-filter>
